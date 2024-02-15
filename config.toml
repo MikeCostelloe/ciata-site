@@ -1,3 +1,4 @@
 baseURL = 'https://heroic-kheer-ecdbc9.netlify.app'
 languageCode = 'en-us'
 title = 'CIATA'
+theme = 'ciata-theme'
