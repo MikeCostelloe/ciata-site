@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          {{ if .IsHome -}}
+              <meta name="description" content="{{ .Params.description }}">
+          <title>{{ .Site.Title }}</title>
+          {{- else -}}
+            <meta name="description" content="{{ .Summary }}">
+          <title>{{ .Title }} | {{ .Site.Title }}</title>
+          {{- end }}
+        <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+      </head>
+      <body>
+      <header>
+      </header>
+        <main>
+            <figure class="ciataMark">
+                <img src="ciataMark.png" alt="logo">
+            </figure>
+            <hr class="slant" />
+            <h2>coming soon</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec faucibus libero, a laoreet mi. Etiam vulputate tincidunt laoreet. Nam finibus diam quis enim tristique aliquet. Curabitur eget dolor nisi. Ut egestas ipsum eros, id tempus nunc sagittis id. Cras nunc metus, convallis condimentum accumsan sit amet, elementum at sem. Duis quis convallis orci. Proin non faucibus purus. Suspendisse sodales volutpat odio id consectetur. Nunc feugiat eget ex ac egestas. Nullam in consectetur leo.</p>
+                
+            <p>Phasellus quis quam eget ligula ultrices pulvinar. Phasellus sed nulla id sapien faucibus tincidunt. Nunc mattis id libero id commodo. Suspendisse et
+        </main>
+        <footer>
+            <p>Copyright &copy; 2024 Ciata | All Rights Reserved</p>
+        </footer>
+      </body>

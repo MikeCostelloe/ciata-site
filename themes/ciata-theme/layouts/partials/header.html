@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+{{ if .IsHome }}
+	<body class="home">
+{{ else }}
+	<body class="{{ .File.ContentBaseName }}">
+{{ end }}
+		<a class="accessibility-link" href="#main-content">Skip to content</a>
+    <header>
+		<nav id="site-navigation" class="main-navigation">
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Main Menu</button>
+              <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
+                {{ range .Site.Menus.main }}
+                  <li><a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}</a></li>
+                {{ end }}
+              </ul>
+      </nav>
+    </header>

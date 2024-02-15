@@ -1,0 +1,13 @@
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      {{ if .IsHome -}}
+          <meta name="description" content="{{ .Params.description }}">
+      <title>{{ .Site.Title }}</title>
+      {{- else -}}
+        <meta name="description" content="{{ .Summary }}">
+      <title>{{ .Title }} | {{ .Site.Title }}</title>
+      {{- end }}
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+  </head>
+  

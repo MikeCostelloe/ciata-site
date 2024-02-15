@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(
+  350deg,
+  hsl(41deg, 89%, 47%) 0%,
+  hsl(38deg, 83%, 62%) 6%,
+  hsl(36deg, 88%, 72%) 13%,
+  hsl(34deg, 94%, 82%) 23%,
+  hsl(33deg, 97%, 91%) 37%,
+  hsl(0deg, 0%, 99%) 70%
+);
+}
+
+header {
+    height: 100px;
+}
+
+main {
+    max-width: 65rem;
+    padding: 4rem;
+    margin: 0 auto;
+}
+
+.slant {
+    border: 1px black solid;
+    transform: rotateZ(-4deg);
+    margin-bottom: 5rem;
+}
+
+.ciataMark {
+    padding: 0;
+    margin: 2rem 0 2rem -6rem;
+    width: 30%;
+    img {
+        width: 100%;
+    }
+}
+
+footer {
+    max-width: 65rem;
+    padding: 4rem;
+    margin: 0 auto;
+}

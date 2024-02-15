@@ -1,0 +1,15 @@
+{
+  "name": "ciata-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "watch": "node-sass themes/ciata-theme/assets/sass -o themes/ciata-theme/static/css/ --source-map true --output-style expanded --indent-type tab --indent-width 1 -w",
+      "compile:css": "node-sass themes/ciata-theme/assets/sass/ -o themes/ciata-theme/static/css/ && stylelint '*.css' --fix || true && stylelint '*.css' --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
