@@ -21,8 +21,9 @@ h2 a:hover {
 }
 
 .main-navigation {
-  max-width: 65rem;
-  margin: 0 auto;
+  	//max-width: 65rem;
+  	//margin: 0 auto;
+	//padding-top: 1rem;
 	display: block;
 
 	ul {
@@ -45,11 +46,11 @@ h2 a:hover {
 				font-size: 1.4rem;
 				letter-spacing: 1px;
 				text-decoration: none;
-        color:black;
+        	color:black;
 			}
 
 			a:hover {
-				color: lightseagreen;
+				color: slategray;
 			}
 			a:focus {
 				color: tomato;
@@ -64,10 +65,10 @@ h2 a:hover {
 	width: 100%;
 	border: none;
 	padding: 1rem;
-	background-color: orange;
-	//color: magenta;
+	background-color: white;
+	color: slategray;
 	font-family: $font__sans;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-decoration: none;
@@ -91,7 +92,7 @@ h2 a:hover {
 		display: none;
 	}
   	.main-navigation {
-      padding: 1rem;
+      padding-top: 1rem;
       ul {
   			display: flex;
         //padding-left: 10rem;

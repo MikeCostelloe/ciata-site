@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          {{ if .IsHome -}}
+              <meta name="description" content="{{ .Params.description }}">
+          <title>{{ .Site.Title }}</title>
+          {{- else -}}
+            <meta name="description" content="{{ .Summary }}">
+          <title>{{ .Title }} | {{ .Site.Title }}</title>
+          {{- end }}
+        <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+      </head>
+      <body>
+      <header>
+      </header>
+        <main>
+          <div id="stage"></div>
+            <figure class="ciataMark">
+                <img src="ciataMark5.png" alt="logo">
+            </figure>
+            <hr/>
+            <h2>coming soon!</h2>
+            <p>CIATA is a team of machine learning professionals who are passionate about helping businesses grow.</p> 
+            <p>At CIATA, we leverage cutting-edge research to deliver tailored, innovative solutions. Our expertise spans across Computer Vision, NLP and Digital Health applications offering our clients a bridge to the future of technology.</p> 
+            <p>We are currently working on a new website to showcase our services and expertise. Please check back soon for updates.</p>
+            
+            <p><a href="https://www.linkedin.com/company/ciata-io">Visit us on LinkedIn</a></p>
+
+            </form>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2024 Ciata | All Rights Reserved</p> 
+        </footer>
+        <script type="text/javascript" src="{{ "js/bundle.js" | relURL }}"></script>
+      </body>
+    </html>

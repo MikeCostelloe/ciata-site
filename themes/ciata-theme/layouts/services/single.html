@@ -1,5 +1,9 @@
+{{ define "bigText" }}
+    {{ .Page.Params.bigtext }}
+{{ end }}
 {{ define "main" }}
 <main>
+    <h1>{{ .Title }}</h1>
 {{ .Content }}
 </main>
 {{ end }}

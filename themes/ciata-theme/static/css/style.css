@@ -134,8 +134,8 @@ Accessibility
 Type
 --------------------------------------------------------------*/
 p {
-	font-size: 1.6rem;
-	margin-bottom: 2rem;
+	font-size: 1.8rem;
+	margin-bottom: 2.2rem;
 	font-family: 'Tahoma';
 	font-weight: 100;
 }
@@ -146,30 +146,136 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 3.6rem;
+	color: #e39f0d;
 }
 
 h2 {
 	font-size: 2.4rem;
-	color: black;
+	color: slategray;
+}
+
+ol {
+	list-style: decimal;
+	margin-left: 2rem;
+}
+
+ol li {
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+	font-family: 'Tahoma';
+	font-weight: 100;
+}
+
+ol li::marker {
+	font-size: 1.6rem;
+	color: #bbbbbb;
 }
 
 /*--------------------------------------------------------------
 Structure
 --------------------------------------------------------------*/
-body {
-	height: 100vh;
-	background-image: linear-gradient(350deg, #e39f0d 0%, #efb44e 6%, #f6c479 13%, #fcd7a6 23%, #feead2 37%, #fcfcfc 70%);
+header {
+	position: relative;
+	display: flex;
+	padding: 3rem;
+	background-color: white;
+	align-items: center;
 }
 
-header {
-	height: 100px;
+.branding {
+	margin: 0;
+}
+
+.logo {
+	display: block;
+	width: 100px;
+}
+
+#stage {
+	display: block;
+	position: fixed;
+	z-index: -9999;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	background-color: slategray;
+}
+
+.big-text {
+	width: 100%;
+	font-size: 8vw;
+	line-height: 7vw;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 100;
+	color: white;
+	padding: 10rem 20rem;
+	text-align: center;
+	background-color: transparent;
+}
+
+.big-text img {
+	width: 30%;
+}
+
+.text-gold {
+	color: #e39f0d;
+}
+
+.pull-quote {
+	position: relative;
+	float: right;
+	width: 80%;
+	margin-right: -40%;
+	padding: 6rem;
+	font-size: 4rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #e39f0d;
+}
+
+.content {
+	position: relative;
+	display: block;
+	background-image: linear-gradient(350deg, #e39f0d 0%, #efb44e 12%, #f6c479 17%, #fcd7a6 23%, #feead2 37%, #fcfcfc 70%, white 90%);
 }
 
 main {
-	max-width: 65rem;
-	padding: 4rem;
+	position: relative;
+	max-width: 72rem;
+	padding: 10rem 2rem;
 	margin: 0 auto;
+}
+
+.services-block {
+	background-color: slategray;
+	display: flex;
+}
+
+.services-blurb {
+	width: 49%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.services-links {
+	width: 49%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	padding: 1rem 5rem 4rem;
+}
+
+.services-links ul {
+	font-size: 3rem;
+}
+
+.services-links ul a {
+	color: #e39f0d;
+}
+
+.services-links ul a:hover {
+	color: white;
 }
 
 .slant {
@@ -188,10 +294,57 @@ main {
 	width: 100%;
 }
 
+.services-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services-item {
+	width: 45%;
+	flex: 0 0 auto;
+}
+
 footer {
 	max-width: 65rem;
 	padding: 4rem;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+	.branding {
+		display: flex;
+		left: 0;
+		max-width: 100%;
+		width: 100%;
+		justify-content: center;
+		margin-bottom: 2rem;
+	}
+	header {
+		display: block;
+	}
+	.big-text {
+		padding: 7rem;
+	}
+	main {
+		position: relative;
+		max-width: 65rem;
+		padding: 4rem;
+		margin: 0 auto;
+	}
+	.services-list {
+		display: block;
+	}
+	.services-item {
+		width: 100%;
+	}
+	.services-block {
+		display: block;
+	}
+	.services-blurb,
+	.services-links {
+		width: 100%;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -217,8 +370,6 @@ h2 a:hover {
 }
 
 .main-navigation {
-	max-width: 65rem;
-	margin: 0 auto;
 	display: block;
 }
 
@@ -247,7 +398,7 @@ h2 a:hover {
 }
 
 .main-navigation ul li a:hover {
-	color: lightseagreen;
+	color: slategray;
 }
 
 .main-navigation ul li a:focus {
@@ -260,9 +411,10 @@ h2 a:hover {
 	width: 100%;
 	border: none;
 	padding: 1rem;
-	background-color: orange;
+	background-color: white;
+	color: slategray;
 	font-family: sans-serif;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-decoration: none;
@@ -284,7 +436,7 @@ h2 a:hover {
 		display: none;
 	}
 	.main-navigation {
-		padding: 1rem;
+		padding-top: 1rem;
 	}
 	.main-navigation ul {
 		display: flex;

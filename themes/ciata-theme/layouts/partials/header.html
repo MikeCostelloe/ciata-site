@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-{{ partial "head.html" . }}
+{{- partial "head.html" . -}}
 {{ if .IsHome }}
 	<body class="home">
 {{ else }}
-	<body class="{{ .File.ContentBaseName }}">
+	<body>
 {{ end }}
 		<a class="accessibility-link" href="#main-content">Skip to content</a>
     <header>
+    <!-- <div class="branding"><a href="/"><img src="/img/ciataLogo.webp" alt="ciata logo"></a></div> -->
+    <div class="branding">
+      <div class="logo"><object type="image/svg+xml" data="/img/ciataLogo.svg">Your browser does not support SVGs</object></div>
+    </div>
 		<nav id="site-navigation" class="main-navigation">
             <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Main Menu</button>
               <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
