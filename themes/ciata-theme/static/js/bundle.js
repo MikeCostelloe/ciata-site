@@ -31268,7 +31268,7 @@ void main() {
 
 	    const materialHold = new MeshBasicMaterial( { color: 0xDDDDDD, colorWrite: false } );
 	    new MeshBasicMaterial( { color: 0xFFFFFF } );
-			const materialOutline = new MeshBasicMaterial( { color: 0xe39f0d, side: BackSide } );
+			const materialOutline = new MeshBasicMaterial( { color: 0xc5ecfc, side: BackSide} );
 	    const geometry = new SphereGeometry(.3, 32, 16);
 	    const holder = new Group();
 	    for (let i=1; i<79; i++) {

@@ -147,7 +147,7 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 3.6rem;
-	color: #e39f0d;
+	color: #586d8e;
 }
 
 h2 {
@@ -199,7 +199,7 @@ header {
 	top: 0;
 	left: 0;
 	max-width: 100%;
-	background-color: slategray;
+	background-color: #18283c;
 }
 
 .big-text {
@@ -219,7 +219,7 @@ header {
 }
 
 .text-gold {
-	color: #e39f0d;
+	color: #c5ecfc;
 }
 
 .pull-quote {
@@ -247,7 +247,7 @@ main {
 }
 
 .services-block {
-	background-color: slategray;
+	background-color: #18283c;
 	display: flex;
 }
 
