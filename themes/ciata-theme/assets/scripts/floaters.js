@@ -34,17 +34,17 @@ class StoryApp {
     
     let blobs = [];
     const holder = new THREE.Group();
-    for (let i=1; i<79; i++) {
+    for (let i=1; i<49; i++) {
       const sphereIn = new THREE.Mesh( geometry, materialHold );
-      let x = THREE.MathUtils.randFloat(-4,3);
-      let y = THREE.MathUtils.randFloat(-1,5);
-      let z = THREE.MathUtils.randFloat(-20,5);
+      let x = THREE.MathUtils.randFloat(-3,1);
+      let y = THREE.MathUtils.randFloat(-3,4);
+      let z = THREE.MathUtils.randFloat(-4,6);
       sphereIn.position.set(x,y,z);
       console.log(sphereIn);
       holder.add(sphereIn);
       const sphereOut = new THREE.Mesh( geometry, materialOutline );
       sphereOut.position.set(x,y,z);
-      sphereOut.scale.set(1.03, 1.03, 1.03);
+      sphereOut.scale.set(1.2, 1.2, 1.2);
       holder.add(sphereOut);
     }
     scene.add( holder );
@@ -64,20 +64,20 @@ class StoryApp {
     const renderPass = new RenderPass( scene, camera );
     composer.addPass( renderPass );
 
-    const bloomPass = new UnrealBloomPass({
-      threshold: .5,
-				strength: 5,
-				radius: 0.5,
-				exposure: 5
-    });
-    composer.addPass( bloomPass );
-
     const bokehPass = new BokehPass(scene, camera, {
-      focus: 10,
-      aperture: .005,
-      maxblur: 0.01
+      focus: 6,
+      aperture: 0.005,
+      maxblur: 0.015
     });
     composer.addPass( bokehPass );
+
+    const bloomPass = new UnrealBloomPass({
+      threshold: 2,
+				strength: .2,
+				radius: .2,
+				exposure: 1
+    });
+    composer.addPass( bloomPass );
 
     const outputPass = new OutputPass();
     composer.addPass( outputPass );
