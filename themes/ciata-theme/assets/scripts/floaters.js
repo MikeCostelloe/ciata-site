@@ -9,7 +9,7 @@ import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 class StoryApp {
 	init() {
     console.log("THREE!");
-
+    //Tim Landgraf start here
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 1000 );
     //camera.position.y = 10;
@@ -19,6 +19,7 @@ class StoryApp {
     //dom
     const container = document.querySelector('#stage');
     renderer.setSize( container.clientWidth, container.clientHeight );
+    //background color that I currently have set to a transparent alpha channel
     renderer.setClearColor(0xFFFFFF, 0);
     container.appendChild( renderer.domElement );
 
@@ -44,6 +45,7 @@ class StoryApp {
       holder.add(sphereIn);
       const sphereOut = new THREE.Mesh( geometry, materialOutline );
       sphereOut.position.set(x,y,z);
+      //below is the size difference between the inner and out radii of the circles
       sphereOut.scale.set(1.2, 1.2, 1.2);
       holder.add(sphereOut);
     }
@@ -63,7 +65,7 @@ class StoryApp {
     const composer = new EffectComposer( renderer );
     const renderPass = new RenderPass( scene, camera );
     composer.addPass( renderPass );
-
+    
     const bokehPass = new BokehPass(scene, camera, {
       focus: 6,
       aperture: 0.005,
