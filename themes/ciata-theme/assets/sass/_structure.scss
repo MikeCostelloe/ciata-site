@@ -18,6 +18,9 @@ header {
     // top: 5rem;
     // left:100px;
     margin: 0;
+    img {
+        width: 100%;
+    }
 }
 
 .logo {
@@ -50,6 +53,8 @@ header {
 
 .text-gold {
     color:#c5ecfc;
+    //color:#c5ecfc;
+    color:#white;
 }
 
 .pull-quote {

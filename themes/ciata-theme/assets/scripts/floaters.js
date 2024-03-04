@@ -1,5 +1,10 @@
 import * as THREE from 'three';
 import * as SkeletonUtils from 'three/examples/jsm/utils/SkeletonUtils.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { BokehPass } from 'three/addons/postprocessing/BokehPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 
 class StoryApp {
 	init() {
@@ -24,22 +29,22 @@ class StoryApp {
 
     const materialHold = new THREE.MeshBasicMaterial( { color: 0xDDDDDD, colorWrite: false } );
     const materialWhite = new THREE.MeshBasicMaterial( { color: 0xFFFFFF } );
-		const materialOutline = new THREE.MeshBasicMaterial( { color: 0xe39f0d, side: THREE.BackSide } );
+		const materialOutline = new THREE.MeshBasicMaterial( { color: 0x48567a, side: THREE.BackSide } );
     const geometry = new THREE.SphereGeometry(.3, 32, 16);
     
     let blobs = [];
     const holder = new THREE.Group();
     for (let i=1; i<79; i++) {
       const sphereIn = new THREE.Mesh( geometry, materialHold );
-      let x = THREE.MathUtils.randFloat(-4,-1);
+      let x = THREE.MathUtils.randFloat(-4,3);
       let y = THREE.MathUtils.randFloat(-1,5);
-      let z = THREE.MathUtils.randFloat(-5,3);
+      let z = THREE.MathUtils.randFloat(-20,5);
       sphereIn.position.set(x,y,z);
       console.log(sphereIn);
       holder.add(sphereIn);
       const sphereOut = new THREE.Mesh( geometry, materialOutline );
       sphereOut.position.set(x,y,z);
-      sphereOut.scale.set(1.02, 1.02, 1.02);
+      sphereOut.scale.set(1.03, 1.03, 1.03);
       holder.add(sphereOut);
     }
     scene.add( holder );
@@ -54,12 +59,36 @@ class StoryApp {
     resize();
     window.addEventListener('resize', resize, { passive: true });
 
+    //post-processing
+    const composer = new EffectComposer( renderer );
+    const renderPass = new RenderPass( scene, camera );
+    composer.addPass( renderPass );
+
+    const bloomPass = new UnrealBloomPass({
+      threshold: .5,
+				strength: 5,
+				radius: 0.5,
+				exposure: 5
+    });
+    composer.addPass( bloomPass );
+
+    const bokehPass = new BokehPass(scene, camera, {
+      focus: 10,
+      aperture: .005,
+      maxblur: 0.01
+    });
+    composer.addPass( bokehPass );
+
+    const outputPass = new OutputPass();
+    composer.addPass( outputPass );
+    
+
     function animate() {
         requestAnimationFrame( animate );
         //lerp scroll
         //currentScroll += (scrollPercentRounded - currentScroll) * .1;
         //myTimeline.seek( (currentScroll/100) * runtime);
-        renderer.render( scene, camera );
+        composer.render();
         holder.rotation.z += .0002;
     };
 

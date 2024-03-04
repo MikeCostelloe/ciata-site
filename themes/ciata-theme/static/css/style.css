@@ -147,12 +147,21 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 3.6rem;
-	color: #586d8e;
+	color: #e39f0d;
 }
 
 h2 {
 	font-size: 2.4rem;
 	color: slategray;
+}
+
+h3 {
+	font-size: 2rem;
+	color: slategray;
+}
+
+h4 {
+	font-size: 1.6rem;
 }
 
 ol {
@@ -185,6 +194,10 @@ header {
 
 .branding {
 	margin: 0;
+}
+
+.branding img {
+	width: 100%;
 }
 
 .logo {
@@ -220,6 +233,7 @@ header {
 
 .text-gold {
 	color: #c5ecfc;
+	color: #white;
 }
 
 .pull-quote {
