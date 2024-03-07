@@ -232,7 +232,7 @@ header {
 }
 
 .text-gold {
-	color: #c5ecfc;
+	color: white;
 }
 
 .pull-quote {
@@ -259,16 +259,28 @@ main {
 	margin: 0 auto;
 }
 
-.services-block {
+.services-blocks {
 	background-color: #18283c;
 	display: flex;
+	justify-content: flex-end;
 }
 
-.services-blurb {
+.services-block {
+	display: flex;
+	width: 50%;
+	padding: 4rem;
+}
+
+.services-title {
 	width: 49%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: 3vw;
+	line-height: 3vw;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 100;
+	color: white;
 }
 
 .services-links {
@@ -280,6 +292,8 @@ main {
 }
 
 .services-links ul {
+	list-style-type: disc;
+	color: white;
 	font-size: 3rem;
 }
 
@@ -289,6 +303,18 @@ main {
 
 .services-links ul a:hover {
 	color: white;
+}
+
+.gold-block {
+	background-color: #e39f0d;
+}
+
+.gold-block .services-links ul a {
+	color: white;
+}
+
+.gold-block .services-links ul a:hover {
+	color: #18283c;
 }
 
 .slant {
@@ -351,11 +377,13 @@ footer {
 	.services-item {
 		width: 100%;
 	}
-	.services-block {
+	.services-block,
+	.services-blocks {
 		display: block;
 	}
 	.services-blurb,
-	.services-links {
+	.services-links,
+	.services-title {
 		width: 100%;
 	}
 }

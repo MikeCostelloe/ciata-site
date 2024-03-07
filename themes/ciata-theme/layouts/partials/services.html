@@ -1,12 +1,26 @@
-<div class="services-block">
-    <div class="services-blurb big-text">What We Offer</div>
+<div class="services-blocks">
+  <div class="services-block gold-block">
+    <div class="services-title">AI Applications</div>
     <div class="services-links">
         <ul>
-            {{ range (where .Site.RegularPages "Section" "services") }}
+            {{ range (site.GetPage "services/ai-applications").Pages }}
             <li>
               <a href="{{ .Permalink }}">{{ .Title }}</a>
             </li>
             {{ end }}
           </ul>
     </div>
+  </div>
+  <div class="services-block">
+    <div class="services-title">Consulting Services</div>
+    <div class="services-links">
+        <ul>
+          {{ range (site.GetPage "services/consulting-services").Pages }}
+            <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+          </ul>
+    </div>
+  </div>
 </div>
