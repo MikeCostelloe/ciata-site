@@ -5,7 +5,7 @@
         {{- partial "header.html" . -}}
         <div id="stage"></div>
         <!--<div class="big-text text-gold"><img src="img/ciataLogoWhite.webp"><br/>is the<br/>solution</div>-->
-        <div class="big-text text-gold">Your AI experts<br/>in Berlin</div>
+        <div class="big-text text-gold">{{ .Page.Params.bigtext }}</div>
         <div class="content">
         <main>
           {{ .Content }}

@@ -2,8 +2,6 @@
 title: "Contact"
 date: 2024-02-14T11:01:24+01:00
 draft: false
-menu: main
-weight: 20
 ---
 # Contact
 

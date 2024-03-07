@@ -17,6 +17,10 @@
                 {{ range .Site.Menus.main }}
                   <li><a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}</a></li>
                 {{ end }}
+                {{ range $.Site.Home.AllTranslations }}
+                <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                {{ end }}
               </ul>
+
       </nav>
     </header>
