@@ -35,13 +35,13 @@ header {
     top: 0;
     left: 0;
     max-width: 100%;
-    background-color: #18283c;
+    background-color:$ciata__dark-blue;
 }
 
 .big-text {
     width: 100%;
-    font-size: 8vw;
-    line-height: 7vw;
+    font-size: 9vw;
+    line-height: 10vw;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 100;
     color:white;
@@ -63,7 +63,7 @@ header {
     padding: 6rem;
     font-size: 4rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: hsl(41deg, 89%, 47%);
+    color:$ciata__gold;
 }
 
 .content {
@@ -88,8 +88,37 @@ main {
     margin: 0 auto;
 }
 
+.services-page {
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+.services-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.services-content {
+    width: 75%;
+    flex: 0 0 auto;
+    display: flex;
+    padding: 3rem;
+    align-content: center;
+    justify-content: center;
+}
+.services-copy {
+    width: 80%;
+}
+.services-image {
+    width: 25%;
+    flex: 0 0 auto;
+    background-color: slategray;
+    min-height: 200px;
+}
+
 .services-blocks {
-    background-color:#18283c;
+    //background: no-repeat url("/img/corner-br.png") bottom right;
+    background-color:$ciata__dark-blue;
     display: flex;
     justify-content: flex-end;
 }
@@ -123,7 +152,7 @@ main {
         color: white;
         font-size: 3rem;
         a {
-            color: hsl(41deg, 89%, 47%);
+            color:$ciata__gold;
         }
         a:hover {
             color: white;
@@ -132,6 +161,7 @@ main {
 }
 
 .gold-block {
+    //background: no-repeat url("/img/corner-tl.png") top left;
     background-color: hsl(41deg, 89%, 47%);
     .services-links {
         ul {
@@ -139,7 +169,7 @@ main {
                 color: white;
             }
             a:hover {
-                color: #18283c;
+                color: $ciata__dark-blue;
             }
         }
     }
@@ -172,12 +202,13 @@ main {
 }
 
 footer {
-    max-width: 65rem;
-    padding: 4rem;
+    width: 100%;
+    padding: 4rem 4rem 8rem;
     margin: 0 auto;
+    background-color: $ciata__gold;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $ciata__breakpoint) {
     .branding {
         display: flex;
         left:0;
@@ -213,6 +244,7 @@ footer {
     .services-block,
     .services-blocks {
         display: block;
+        width: 100%;;
     }
     
     .services-blurb,

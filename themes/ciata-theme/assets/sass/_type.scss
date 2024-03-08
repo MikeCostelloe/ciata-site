@@ -13,19 +13,19 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 3.6rem;
-    color: hsl(41deg, 89%, 47%);
+    color: $ciata__gold;
 }
 h2 {
     font-size: 2.4rem;
-    color:slategray;
+    color:$ciata__grey;
 }
 h3 {
     font-size: 2rem;
-    color:slategray;
+    color:$ciata__grey;
 }
 h4 {
     font-size: 1.6rem;
-    //color:slategray;
+    //color:$ciata__grey;
 }
 
 ol {

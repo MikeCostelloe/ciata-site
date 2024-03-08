@@ -152,12 +152,12 @@ h1 {
 
 h2 {
 	font-size: 2.4rem;
-	color: slategray;
+	color: slategrey;
 }
 
 h3 {
 	font-size: 2rem;
-	color: slategray;
+	color: slategrey;
 }
 
 h4 {
@@ -217,8 +217,8 @@ header {
 
 .big-text {
 	width: 100%;
-	font-size: 8vw;
-	line-height: 7vw;
+	font-size: 9vw;
+	line-height: 10vw;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-weight: 100;
 	color: white;
@@ -257,6 +257,38 @@ main {
 	max-width: 72rem;
 	padding: 10rem 2rem;
 	margin: 0 auto;
+}
+
+.services-page {
+	width: 100%;
+	background-color: white;
+	display: block;
+}
+
+.services-section {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-content {
+	width: 75%;
+	flex: 0 0 auto;
+	display: flex;
+	padding: 3rem;
+	align-content: center;
+	justify-content: center;
+}
+
+.services-copy {
+	width: 80%;
+}
+
+.services-image {
+	width: 25%;
+	flex: 0 0 auto;
+	background-color: slategray;
+	min-height: 200px;
 }
 
 .services-blocks {
@@ -345,12 +377,13 @@ main {
 }
 
 footer {
-	max-width: 65rem;
-	padding: 4rem;
+	width: 100%;
+	padding: 4rem 4rem 8rem;
 	margin: 0 auto;
+	background-color: #e39f0d;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 799px) {
 	.branding {
 		display: flex;
 		left: 0;
@@ -380,6 +413,7 @@ footer {
 	.services-block,
 	.services-blocks {
 		display: block;
+		width: 100%;
 	}
 	.services-blurb,
 	.services-links,
@@ -393,12 +427,12 @@ Nav
 --------------------------------------------------------------*/
 a,
 a:visited {
-	color: darkorange;
+	color: #18283c;
 	text-decoration: none;
 }
 
 a:hover {
-	color: navy;
+	color: #e39f0d;
 }
 
 h2 a,
@@ -407,7 +441,7 @@ h2 a:visited {
 }
 
 h2 a:hover {
-	color: orange;
+	color: #e39f0d;
 }
 
 .main-navigation {
@@ -439,7 +473,7 @@ h2 a:hover {
 }
 
 .main-navigation ul li a:hover {
-	color: slategray;
+	color: #e39f0d;
 }
 
 .main-navigation ul li a:focus {
@@ -462,7 +496,7 @@ h2 a:hover {
 }
 
 .main-navigation button:hover {
-	color: orange;
+	color: #e39f0d;
 	background-color: white;
 	transition: background-color 2s;
 }
