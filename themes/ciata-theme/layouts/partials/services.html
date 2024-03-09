@@ -1,24 +1,27 @@
 <div class="services-blocks">
   <div class="services-block">
-    <div class="services-title">AI Applications</div>
-    <div class="services-links">
-        <ul>
-            {{ range (site.GetPage "services/ai-applications").Pages }}
-            <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </li>
-            {{ end }}
-          </ul>
+    <div class="services-title">{{ $sectionPage := site.GetPage "section" "ai-applications" }}
+      {{ $sectionPage.Title }}
     </div>
-    <div class="services-title">Consulting Services</div>
     <div class="services-links">
-        <ul>
-          {{ range (site.GetPage "services/consulting-services").Pages }}
-            <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </li>
-            {{ end }}
-          </ul>
+      <ul>
+        {{ range (site.GetPage "services/ai-applications").Pages }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="services-title">{{ $sectionPage := site.GetPage "section" "consulting-services" }}
+      {{ $sectionPage.Title }}</div>
+    <div class="services-links">
+      <ul>
+        {{ range (site.GetPage "services/consulting-services").Pages }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
     </div>
   </div>
 </div>
