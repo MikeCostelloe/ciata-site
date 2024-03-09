@@ -5,4 +5,4 @@ draft: false
 type: "ai-applications"
 bigtext: "AI Applications"
 ---
-AI!
+Modern AI can help implement new business cases. Learn more about the range of applications we can help you with.

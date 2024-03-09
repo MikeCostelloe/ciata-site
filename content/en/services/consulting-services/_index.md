@@ -5,4 +5,4 @@ draft: false
 type: "ai-applications"
 bigtext: "Consulting Services"
 ---
-Consulting
+We help you improve workflows, bring your team up to speed and recruit AI specialists for you. 
