@@ -1,5 +1,5 @@
 ---
-title: "Prototype Development Services"
+title: "Chatbots & Sprachmodelle"
 date: 2024-02-21T14:31:59+01:00
 bigtext: "From Innovative Ideas to Testable Products"
 draft: false
