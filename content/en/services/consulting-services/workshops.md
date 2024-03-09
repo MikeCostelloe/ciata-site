@@ -2,7 +2,7 @@
 title: "AI and Data Science Workshops"
 date: 2024-02-21T14:36:34+01:00
 params:
-    bigtext: "Harness the Power of AI and Data Science"
+bigtext: "Harness the Power of AI and Data Science"
 draft: false
 ---
 Our workshops are designed to empower organizations with the knowledge and skills needed to harness the power of AI and data science.<!--more--> Key features include:

@@ -2,7 +2,7 @@
 title: "AI Strategy Services"
 date: 2024-02-21T13:04:21+01:00
 params:
-    bigtext: "Unlock the Full Potential of Artificial Intelligence"
+bigtext: "Unlock the Full Potential of Artificial Intelligence"
 draft: false
 ---
 GERMAN PENDING

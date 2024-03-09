@@ -2,7 +2,7 @@
 title: "Due Diligence Services"
 date: 2024-02-21T14:34:32+01:00
 params:
-    bigtext: "Value Evaluation"
+bigtext: "Value Evaluation"
 draft: false
 ---
 Our technical due diligence services are designed to help you make informed decisions about your technology investments. We offer expert analysis and evaluation of your technology assets, providing insights on their strengths, weaknesses, and potential risks. Our team also provides recommendations for mitigating risks and optimizing your technology portfolio.<!--more-->

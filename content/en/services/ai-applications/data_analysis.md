@@ -2,7 +2,7 @@
 title: "Data Analysis Services"
 date: 2024-02-21T13:36:08+01:00
 params:
-    bigtext: "Harness Your Lifeblood"
+bigtext: "Harness Your Lifeblood"
 draft: false
 ---
 Data is the lifeblood of any business. However, the sheer volume of data available today can be overwhelming. Without the right tools and expertise, it can be difficult to extract meaningful insights from your data. This is where we come in.<!--more--> We offer a wide range of data analysis services that help you make sense of your data and use it to drive business growth.

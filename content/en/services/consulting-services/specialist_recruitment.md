@@ -2,7 +2,7 @@
 title: "Specialist Recruitment"
 date: 2024-02-21T14:35:55+01:00
 params:
-    bigtext: "The Right People for the Job"
+bigtext: "The Right People for the Job"
 draft: false
 ---
 Finding the right talent is crucial for the successful implementation of AI strategies. Our recruitment help service is designed to complement our interim management offering, ensuring that your organization not only has the leadership it needs but also the right team to execute your AI vision.<!--more-->

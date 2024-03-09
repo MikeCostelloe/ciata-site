@@ -3,7 +3,7 @@ title: "Home"
 date: 2024-02-14T09:52:47+01:00
 draft: false
 params:
-    bigtext: "Your AI Experts in Berlin"
+bigtext: "Your AI Experts in Berlin"
 ---
 # CIATA is a team of machine learning professionals who are passionate about helping businesses grow.
 
