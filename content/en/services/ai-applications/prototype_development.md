@@ -1,7 +1,6 @@
 ---
 title: "Prototype Development Services"
 date: 2024-02-21T14:31:59+01:00
-params:
 bigtext: "From Innovative Ideas to Testable Products"
 draft: false
 ---

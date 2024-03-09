@@ -1,7 +1,6 @@
 ---
 title: "Specialist Recruitment"
 date: 2024-02-21T14:35:55+01:00
-params:
 bigtext: "The Right People for the Job"
 draft: false
 ---

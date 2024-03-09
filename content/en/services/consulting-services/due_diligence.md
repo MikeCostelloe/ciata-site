@@ -1,7 +1,6 @@
 ---
 title: "Due Diligence Services"
 date: 2024-02-21T14:34:32+01:00
-params:
 bigtext: "Value Evaluation"
 draft: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Data Analysis Services"
 date: 2024-02-21T13:36:08+01:00
-params:
 bigtext: "Harness Your Lifeblood"
 draft: false
 ---
