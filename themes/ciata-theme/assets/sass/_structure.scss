@@ -8,7 +8,7 @@ header {
     display: flex;
     padding: 3rem;
     //min-height: 100px;
-    background-color:white;
+    background-color: white;
     align-items: center;
 }
 
@@ -18,6 +18,7 @@ header {
     // top: 5rem;
     // left:100px;
     margin: 0;
+
     img {
         width: 100%;
     }
@@ -35,20 +36,23 @@ header {
     top: 0;
     left: 0;
     max-width: 100%;
-    background-color:$ciata__dark-blue;
+    background-color: $ciata__dark-blue;
 }
 
 .big-text {
     width: 100%;
     font-size: 9vw;
     line-height: 10vw;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 100;
-    color:white;
+    color: white;
     padding: 10rem 20rem;
     text-align: center;
     background-color: transparent;
-    img {width: 30%;}
+
+    img {
+        width: 30%;
+    }
 }
 
 .text-gold {
@@ -56,29 +60,27 @@ header {
 }
 
 .pull-quote {
-    position:relative;
+    position: relative;
     float: right;
     width: 80%;
     margin-right: -40%;
     padding: 6rem;
     font-size: 4rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:$ciata__gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: $ciata__gold;
 }
 
 .content {
     position: relative;
     display: block;
-    background-image: linear-gradient(
-        350deg,
-        hsl(41deg, 89%, 47%) 0%,
-        hsl(38deg, 83%, 62%) 12%,
-        hsl(36deg, 88%, 72%) 17%,
-        hsl(34deg, 94%, 82%) 23%,
-        hsl(33deg, 97%, 91%) 37%,
-        hsl(0deg, 0%, 99%) 70%,
-        hsl(0deg, 0%, 100%) 90%
-      );
+    background-image: linear-gradient(350deg,
+            hsl(41deg, 89%, 47%) 0%,
+            hsl(38deg, 83%, 62%) 12%,
+            hsl(36deg, 88%, 72%) 17%,
+            hsl(34deg, 94%, 82%) 23%,
+            hsl(33deg, 97%, 91%) 37%,
+            hsl(0deg, 0%, 99%) 70%,
+            hsl(0deg, 0%, 100%) 90%);
 }
 
 main {
@@ -93,11 +95,13 @@ main {
     background-color: white;
     display: block;
 }
+
 .services-section {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .services-content {
     width: 75%;
     flex: 0 0 auto;
@@ -106,9 +110,11 @@ main {
     align-content: center;
     justify-content: center;
 }
+
 .services-copy {
     width: 80%;
 }
+
 .services-image {
     width: 25%;
     flex: 0 0 auto;
@@ -118,7 +124,7 @@ main {
 
 .services-blocks {
     //background: no-repeat url("/img/corner-br.png") bottom right;
-    background-color:$ciata__dark-blue;
+    background-color: $ciata__dark-blue;
     display: flex;
     justify-content: flex-end;
 }
@@ -134,11 +140,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3vw;
-    line-height: 3vw;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5em;
+    line-height: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 100;
-    color:white;
+    color: white;
+    text-align: center;
+    padding-right: 3rem;
 }
 
 .services-links {
@@ -146,14 +154,18 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    padding: 1rem 5rem 4rem;
+    padding: 3rem 5rem 3rem;
+    font-size: 3em;
+
     ul {
         list-style-type: disc;
         color: white;
         font-size: 3rem;
+
         a {
-            color:$ciata__gold;
+            color: $ciata__gold;
         }
+
         a:hover {
             color: white;
         }
@@ -163,11 +175,13 @@ main {
 .gold-block {
     //background: no-repeat url("/img/corner-tl.png") top left;
     background-color: hsl(41deg, 89%, 47%);
+
     .services-links {
         ul {
             a {
                 color: white;
             }
+
             a:hover {
                 color: $ciata__dark-blue;
             }
@@ -185,6 +199,7 @@ main {
     padding: 0;
     margin: 2rem 0 2rem -6rem;
     width: 30%;
+
     img {
         width: 100%;
     }
@@ -193,7 +208,7 @@ main {
 .services-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .services-item {
@@ -211,7 +226,7 @@ footer {
 @media screen and (max-width: $ciata__breakpoint) {
     .branding {
         display: flex;
-        left:0;
+        left: 0;
         max-width: 100%;
         width: 100%;
         justify-content: center;
@@ -223,7 +238,7 @@ footer {
     }
 
     .big-text {
-       padding: 7rem;
+        padding: 7rem;
     }
 
     main {
@@ -236,7 +251,7 @@ footer {
     .services-list {
         display: block;
     }
-    
+
     .services-item {
         width: 100%;
     }
@@ -244,9 +259,10 @@ footer {
     .services-block,
     .services-blocks {
         display: block;
-        width: 100%;;
+        width: 100%;
+        ;
     }
-    
+
     .services-blurb,
     .services-links,
     .services-title {
