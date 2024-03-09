@@ -6,4 +6,4 @@ type: "ai-applications"
 params:
     bigtext: "Consulting Services"
 ---
-Consulting
+Beratung
