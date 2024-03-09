@@ -100,10 +100,11 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    //background-color: $ciata__dark-blue;
 }
 
 .services-content {
-    width: 75%;
+    width: 25%;
     flex: 0 0 auto;
     display: flex;
     padding: 3rem;
@@ -116,9 +117,9 @@ main {
 }
 
 .services-image {
-    width: 25%;
+    width: 75%;
     flex: 0 0 auto;
-    background-color: slategray;
+    //background-color: slategray;
     min-height: 200px;
 }
 
@@ -214,6 +215,28 @@ main {
 .services-item {
     width: 45%;
     flex: 0 0 auto;
+}
+
+.email-button {
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    padding: 2rem;
+    margin: 1em auto;
+    font-size: 3rem;
+    text-align: center;
+    background-color: $ciata__gold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    //transition: all 0.3s ease;
+    //round edges
+    border-radius: 15px;
+
+    &:hover {
+        background-color: $ciata__dark-blue;
+        color: white;
+    }
 }
 
 footer {
