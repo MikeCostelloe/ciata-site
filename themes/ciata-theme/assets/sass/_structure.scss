@@ -57,6 +57,7 @@ header {
 
 .text-gold {
     color: white;
+    text-shadow: 3px 3px 14px #18283c;
 }
 
 .pull-quote {
@@ -156,7 +157,7 @@ main {
 .services-block {
     display: flex;
     width: 100%;
-    padding: 4rem;
+    padding: 4rem; 
 }
 
 .services-title {
