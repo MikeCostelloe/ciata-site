@@ -1,7 +1,10 @@
 {{ define "bigText" }}
-{{ .Page.Params.bigtext }}
+<!--
+<div class="text-gold">{{ .Page.Params.bigtext }}</div>
+-->
 {{ end }}
 {{ define "services" }}
+<!--
 <div class="services-page">
   {{ with site.GetPage "services/ai-applications" }}
   <div class="services-section">
@@ -36,4 +39,29 @@
   </div>
   {{ end }}
 </div>
+-->
+
+<div class="services-page">
+
+  {{ with site.GetPage "services/ai-applications" }}
+  <div class="services-section">
+    <div class="services-image-bkg" style="background-image:url(../../img/cell_tracking.webp);">
+        <a href="{{ .Permalink }}">
+          <div class="big-services-text">{{ .Title }}</div>
+        </a>
+    </div>
+  </div>
+  {{ end }}
+  
+  {{ with site.GetPage "services/consulting-services" }}
+  <div class="services-section">
+    <div class="services-image-bkg" style="background-image:url(../../img/consulting.webp);">
+        <a href="{{ .Permalink }}">
+          <div class="big-services-text">{{ .Title }}</div>
+        </a>
+      </div>
+  </div>
+  {{ end }}
+</div>
+
 {{ end }}

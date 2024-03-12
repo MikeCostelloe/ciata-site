@@ -4,7 +4,7 @@
     <body>
         {{- partial "header.html" . -}}
         <div id="stage"></div>
-        <div class="big-text">{{- block "bigText" . }}{{- end }}</div>
+        {{- block "bigText" . }}{{- end }}
         {{- block "services" . }}{{- end }}
         <div class="content">
         {{- block "main" . }}{{- end }}
