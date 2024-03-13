@@ -10,7 +10,12 @@
         </div>
         <div class="content">
         <main>
+          <div class="main-column">
           {{ .Content }}
+        </div>
+        <div class="main-column">
+        <div class="placeholder"></div>
+         </div>
         </main>
         {{- partial "services.html" . -}}
         </div>

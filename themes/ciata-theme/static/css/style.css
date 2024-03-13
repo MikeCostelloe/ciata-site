@@ -300,6 +300,11 @@ main {
 	width: 100%;
 }
 
+.services-intro p {
+	font-size: 2.8rem;
+	color: #e39f0d;
+}
+
 .services-section {
 	width: 80%;
 	display: flex;
@@ -440,13 +445,12 @@ main {
 
 .services-list {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .services-item {
-	width: 45%;
-	flex: 0 0 auto;
+	padding: 1rem;
+	flex: 1;
 }
 
 .email-button {
@@ -476,6 +480,30 @@ footer {
 	background-color: #e39f0d;
 }
 
+main {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 144rem;
+	padding: 8rem 2rem;
+	margin: 0 auto;
+}
+
+.main-column {
+	display: block;
+	max-width: 96rem;
+	padding: 0 2rem;
+	flex: 1;
+}
+
+.placeholder {
+	display: block;
+	background-color: slategray;
+	width: 100%;
+	height: 500px;
+}
+
 @media screen and (max-width: 799px) {
 	.branding {
 		display: flex;
@@ -497,6 +525,7 @@ footer {
 	}
 	main {
 		position: relative;
+		display: block;
 		max-width: 65rem;
 		padding: 4rem;
 		margin: 0 auto;

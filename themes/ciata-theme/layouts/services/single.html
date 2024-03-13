@@ -1,9 +1,11 @@
 {{ define "bigText" }}
-    {{ .Page.Params.bigtext }}
+    <!-- {{ .Page.Params.bigtext }} -->
 {{ end }}
 {{ define "main" }}
 <main>
+    <div class="main-column">
     <h1>{{ .Title }}</h1>
 {{ .Content }}
+</div>
 </main>
 {{ end }}

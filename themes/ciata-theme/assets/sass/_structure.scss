@@ -131,6 +131,10 @@ main {
 
 .services-intro {
     width: 100%;
+    p {
+        font-size: 2.8rem;
+        color: $ciata__gold;
+    }
 
 }
 
@@ -180,7 +184,7 @@ main {
 
     }
 }
-
+//services block on homepage
 .services-blocks {
     //background: no-repeat url("/img/corner-br.png") bottom right;
     background-color: $ciata__dark-blue;
@@ -287,13 +291,13 @@ main {
 
 .services-list {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .services-item {
-    width: 45%;
-    flex: 0 0 auto;
+    padding: 1rem;
+    flex: 1;
 }
 
 .email-button {
@@ -323,6 +327,33 @@ footer {
     background-color: $ciata__gold;
 }
 
+//main experiment
+main {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 144rem;
+    padding: 8rem 2rem;
+    margin: 0 auto;
+}
+
+.main-column {
+    display: block;
+    max-width: 96rem;
+    padding: 0 2rem;
+    flex: 1;
+}
+
+.placeholder {
+    display: block;
+    background-color: slategray;
+    width: 100%;
+    height: 500px;
+}
+
+//end-experiment
+
 @media screen and (max-width: $ciata__breakpoint) {
     .branding {
         display: flex;
@@ -347,6 +378,7 @@ footer {
 
     main {
         position: relative;
+        display: block;
         max-width: 65rem;
         padding: 4rem;
         margin: 0 auto;

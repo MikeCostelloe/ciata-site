@@ -3,10 +3,11 @@
 {{ end }}
 {{ define "main" }}
 <main>
-    <h1>{{ .Title }}</h1>
+  <div class="main-column">
     <div class="services-intro">
       {{ .Content }}
     </div>
+    <h1>{{ .Title }}</h1>
     <div class="services-list">
       {{ range (where .Data.Pages "Section" "!=" "") }}
       <div class="services-item">
@@ -15,6 +16,7 @@
         <a href="{{ .Permalink }}"><h4>More ></h4></a>
       </div>
       {{ end }}
+    </div>
     </div>
     </main>
     {{ end }}
