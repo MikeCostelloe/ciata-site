@@ -37,8 +37,8 @@ class StoryApp {
     const holder = new THREE.Group();
     for (let i=1; i<49; i++) {
       const sphereIn = new THREE.Mesh( geometry, materialHold );
-      let x = THREE.MathUtils.randFloat(-3,1);
-      let y = THREE.MathUtils.randFloat(-3,4);
+      let x = THREE.MathUtils.randFloat(0,3);
+      let y = THREE.MathUtils.randFloat(-4,4);
       let z = THREE.MathUtils.randFloat(-4,6);
       sphereIn.position.set(x,y,z);
       console.log(sphereIn);

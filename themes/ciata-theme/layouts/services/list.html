@@ -1,67 +1,20 @@
 {{ define "bigText" }}
-<!--
-<div class="text-gold">{{ .Page.Params.bigtext }}</div>
--->
-{{ end }}
-{{ define "services" }}
-<!--
-<div class="services-page">
-  {{ with site.GetPage "services/ai-applications" }}
-  <div class="services-section">
-    <div class="services-content">
-      <div class="services-copy">
-        <a href="{{ .Permalink }}">
-          <h2>{{ .Title }}</h2>
-        </a>
-        <p>{{ .Summary }}</p>
-        <a href="{{ .Permalink }}">
-          <h4>More ></h4>
-        </a>
-      </div>
-    </div>
-    <div class="services-image"><img src="../../img/cell_tracking.gif"></div>
-  </div>
-  {{ end }}
-  {{ with site.GetPage "services/consulting-services" }}
-  <div class="services-section">
-    <div class="services-image"><img src="../../img/promo2.gif"></div>
-    <div class="services-content">
-      <div class="services-copy">
-        <a href="{{ .Permalink }}">
-          <h2>{{ .Title }}</h2>
-        </a>
-        <p>{{ .Summary }}</p>
-        <a href="{{ .Permalink }}">
-          <h4>More ></h4>
-        </a>
-      </div>
-    </div>
-  </div>
-  {{ end }}
-</div>
--->
-
-<div class="services-page">
-
-  {{ with site.GetPage "services/ai-applications" }}
-  <div class="services-section">
-    <div class="services-image-bkg" style="background-image:url(../../img/cell_tracking.webp);">
-        <a href="{{ .Permalink }}">
-          <div class="big-services-text">{{ .Title }}</div>
-        </a>
-    </div>
-  </div>
-  {{ end }}
-  
-  {{ with site.GetPage "services/consulting-services" }}
-  <div class="services-section">
-    <div class="services-image-bkg" style="background-image:url(../../img/consulting.webp);">
-        <a href="{{ .Permalink }}">
-          <div class="big-services-text">{{ .Title }}</div>
-        </a>
-      </div>
-  </div>
-  {{ end }}
-</div>
 
 {{ end }}
+{{ define "main" }}
+<main>
+    <h1>{{ .Title }}</h1>
+    <div class="services-intro">
+      {{ .Content }}
+    </div>
+    <div class="services-list">
+      {{ range (where .Data.Pages "Section" "!=" "") }}
+      <div class="services-item">
+        <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+        <div><p>{{ .Summary }}</p></div>
+        <a href="{{ .Permalink }}"><h4>More ></h4></a>
+      </div>
+      {{ end }}
+    </div>
+    </main>
+    {{ end }}

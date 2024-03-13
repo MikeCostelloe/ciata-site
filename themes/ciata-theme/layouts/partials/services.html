@@ -1,9 +1,13 @@
 <div class="services-blocks">
   <div class="services-block">
-    <div class="services-title">{{ $sectionPage := site.GetPage "section" "ai-applications" }}
-      {{ $sectionPage.Title }}
+    {{ with site.GetPage "section" "ai-applications" }}
+    <div class="services-image-bkg" style="background-image:url(../../img/cell_tracking.webp);">
+      <a href="{{ .RelPermalink }}">
+    <div class="services-title">
+      {{ .Title }}
     </div>
-    <div class="services-links">
+  </a>
+    <!-- <div class="services-links">
       <ul>
         {{ range (site.GetPage "services/ai-applications").Pages }}
         <li>
@@ -11,10 +15,19 @@
         </li>
         {{ end }}
       </ul>
+    </div> -->
     </div>
-    <div class="services-title">{{ $sectionPage := site.GetPage "section" "consulting-services" }}
-      {{ $sectionPage.Title }}</div>
-    <div class="services-links">
+    {{ end }}
+    </div>
+    <div class="services-block">
+      {{ with site.GetPage "section" "consulting-services" }}
+      <div class="services-image-bkg" style="background-image:url(../../img/consulting.webp);">
+        <a href="{{ .RelPermalink }}">
+    <div class="services-title">
+      {{ .Title }}
+    </div>
+  </a>
+    <!-- <div class="services-links">
       <ul>
         {{ range (site.GetPage "services/consulting-services").Pages }}
         <li>
@@ -22,6 +35,8 @@
         </li>
         {{ end }}
       </ul>
-    </div>
+    </div> -->
+  </div>
+  {{ end }}
   </div>
 </div>

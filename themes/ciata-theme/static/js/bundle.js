@@ -32864,8 +32864,8 @@ void main() {
 	    const holder = new Group();
 	    for (let i=1; i<49; i++) {
 	      const sphereIn = new Mesh( geometry, materialHold );
-	      let x = MathUtils.randFloat(-3,1);
-	      let y = MathUtils.randFloat(-3,4);
+	      let x = MathUtils.randFloat(0,3);
+	      let y = MathUtils.randFloat(-4,4);
 	      let z = MathUtils.randFloat(-4,6);
 	      sphereIn.position.set(x,y,z);
 	      console.log(sphereIn);

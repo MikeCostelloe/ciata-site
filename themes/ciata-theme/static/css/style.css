@@ -190,6 +190,7 @@ header {
 	padding: 3rem;
 	background-color: white;
 	align-items: center;
+	box-shadow: 0px 5px 15px #18283c;
 }
 
 .branding {
@@ -215,15 +216,26 @@ header {
 	background-color: #18283c;
 }
 
+.banner {
+	min-height: 600px;
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
 .big-text {
-	width: 100%;
-	font-size: 9vw;
-	line-height: 10vw;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	display: block;
+	position: relative;
+	left: 100px;
+	width: 60%;
+	font-size: 144px;
+	line-height: 130px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	letter-spacing: 2px;
 	font-weight: 100;
 	color: white;
-	padding: 10rem 20rem;
-	text-align: center;
+	padding: 5rem;
+	text-align: left;
 	background-color: transparent;
 }
 
@@ -231,8 +243,25 @@ header {
 	width: 30%;
 }
 
+.big-services-text {
+	width: 100%;
+	height: 100%;
+	font-size: 10em;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 100;
+	color: white;
+	padding: 1rem 10rem;
+	text-align: center;
+	background-color: transparent;
+	text-shadow: 1px 1px 4px #5a7aa1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .text-gold {
 	color: white;
+	text-shadow: 3px 3px 14px #18283c;
 }
 
 .pull-quote {
@@ -260,19 +289,28 @@ main {
 }
 
 .services-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* Centers the content */
 	width: 100%;
-	background-color: white;
-	display: block;
+}
+
+.services-intro {
+	width: 100%;
 }
 
 .services-section {
-	width: 100%;
+	width: 80%;
 	display: flex;
 	justify-content: space-between;
+	/* Maintains original spacing */
+	margin: 3em auto;
+	/* Centers the section */
 }
 
 .services-content {
-	width: 75%;
+	width: 25%;
 	flex: 0 0 auto;
 	display: flex;
 	padding: 3rem;
@@ -285,34 +323,67 @@ main {
 }
 
 .services-image {
-	width: 25%;
-	flex: 0 0 auto;
-	background-color: slategray;
+	width: 75%;
 	min-height: 200px;
+	flex: 1;
+	height: 300px;
+	/* Fixed height */
+	overflow: hidden;
+	border-radius: 15px;
+	/* Adjust this value to achieve the desired roundness */
+	border: 1px solid #959ea1;
+	/* Example: 3px solid black border */
+	/* Prevents overflow outside the container */
+}
+
+.services-image img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 }
 
 .services-blocks {
 	background-color: #18283c;
 	display: flex;
 	justify-content: flex-end;
+	box-shadow: 0px 5px 15px #232a3a;
 }
 
 .services-block {
 	display: flex;
-	width: 50%;
-	padding: 4rem;
+	width: 100%;
+}
+
+.services-image-bkg {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	/* Fixed height */
+	width: 100%;
+	/* Or specific width */
+	filter: saturate(0.1);
+}
+
+.services-image-bkg:hover {
+	filter: saturate(1);
 }
 
 .services-title {
-	width: 49%;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 3vw;
-	line-height: 3vw;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-weight: 100;
+	font-size: 5em;
+	line-height: 1em;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-weight: 400;
 	color: white;
+	text-align: center;
+	padding-right: 3rem;
 }
 
 .services-links {
@@ -320,7 +391,9 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-	padding: 1rem 5rem 4rem;
+	padding: 3rem 5rem 3rem;
+	font-size: 3em;
+	line-height: 1.4em;
 }
 
 .services-links ul {
@@ -376,6 +449,26 @@ main {
 	flex: 0 0 auto;
 }
 
+.email-button {
+	display: flex;
+	justify-content: center;
+	width: 12em;
+	padding: 2rem;
+	margin: 3em auto;
+	font-size: 3rem;
+	text-align: center;
+	background-color: #e39f0d;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+}
+
+.email-button:hover {
+	background-color: #fcc03d;
+	color: #18283c;
+}
+
 footer {
 	width: 100%;
 	padding: 4rem 4rem 8rem;
@@ -397,6 +490,10 @@ footer {
 	}
 	.big-text {
 		padding: 7rem;
+		left: 10px;
+		width: 100%;
+		font-size: 16vw;
+		line-height: 15vw;
 	}
 	main {
 		position: relative;

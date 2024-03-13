@@ -40,15 +40,26 @@ header {
     background-color: $ciata__dark-blue;
 }
 
+.banner {
+ min-height: 600px;
+ display: flex;
+ position: relative;
+ align-items: center; 
+}
+
 .big-text {
-    width: 100%;
-    font-size: 9vw;
-    line-height: 10vw;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 100;
+    display: block;
+    position: relative;
+    left: 100px;
+    width: 60%;
+    font-size: 144px;
+    line-height: 130px;
+    font-family: $ciata_sans;
+    letter-spacing: 2px;
+    font-weight:100;
     color: white;
-    padding: 10rem 20rem;
-    text-align: center;
+    padding: 5rem;
+    text-align: left;
     background-color: transparent;
 
     img {
@@ -118,6 +129,11 @@ main {
     //background-color: white;
 }
 
+.services-intro {
+    width: 100%;
+
+}
+
 .services-section {
     width: 80%;
     display: flex;
@@ -139,23 +155,6 @@ main {
 
 .services-copy {
     width: 80%;
-}
-
-
-.services-image-bkg {
-    background-size: cover;
-    background-position: center;
-    height: 300px; /* Fixed height */
-    width: 100%; /* Or specific width */
-    border-radius: 15px; /* Rounds the corners of the div */
-    border: 1px solid #959ea1; /* Adds a border to the div */
-    overflow: hidden; /* Important: Ensures the background image respects the border-radius */
-    box-shadow: 3px 3px 14px #18283c;
-    //filter: sepia(60%);
-    filter:saturate(0.1)
-}
-.services-image-bkg:hover {
-    filter: saturate(1);
 }
 
 .services-image {
@@ -193,18 +192,37 @@ main {
 .services-block {
     display: flex;
     width: 100%;
-    padding: 10em 4rem; 
+}
+
+.services-image-bkg {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Fixed height */
+    width: 100%; /* Or specific width */
+    // border-radius: 15px; /* Rounds the corners of the div */
+    // border: 1px solid #959ea1; /* Adds a border to the div */
+    //overflow: hidden; /* Important: Ensures the background image respects the border-radius */
+    //box-shadow: 3px 3px 14px #18283c;
+    //filter: sepia(60%);
+    filter:saturate(0.1);
+}
+.services-image-bkg:hover {
+    filter: saturate(1);
 }
 
 .services-title {
-    width: 49%;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 5em;
     line-height: 1em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 100;
+    font-family: $ciata_sans;
+    font-weight: 400;
     color: white;
     text-align: center;
     padding-right: 3rem;
@@ -321,6 +339,10 @@ footer {
 
     .big-text {
         padding: 7rem;
+        left: 10px;
+        width: 100%;
+        font-size: 16vw;
+        line-height: 15vw;
     }
 
     main {
