@@ -47,24 +47,38 @@ header {
  align-items: center; 
 }
 
-.big-text {
+.banner-container {
     display: block;
     position: relative;
     left: 100px;
     width: 60%;
+}
+
+.big-text {
+    // display: block;
+    // position: relative;
+    // left: 100px;
+    // width: 60%;
     font-size: 144px;
     line-height: 130px;
     font-family: $ciata_sans;
     letter-spacing: 2px;
     font-weight:100;
     color: white;
-    padding: 5rem;
+    //padding: 5rem;
     text-align: left;
     background-color: transparent;
 
     img {
         width: 30%;
     }
+}
+
+.banner-blurb {
+    width: 70%;
+    font-size: 3.2rem;
+    color: white;
+    padding: 2rem 0;
 }
 
 .big-services-text {
@@ -368,12 +382,26 @@ main {
         display: block;
     }
 
-    .big-text {
-        padding: 7rem;
+    .banner-container {
+        display: block;
+        position: relative;
         left: 10px;
+        width: 100%;
+    }
+
+    .big-text {
+        padding-left: 7rem;
+        //left: 10px;
         width: 100%;
         font-size: 16vw;
         line-height: 15vw;
+    }
+
+    .banner-blurb {
+        width: 100%;
+        font-size: 2.4rem;
+        padding: 2rem 7rem;
+        margin-bottom: 3rem;
     }
 
     main {
