@@ -7,4 +7,6 @@ blurb: "CIATA ist ein Team von Experten für maschinelles Lernen, die mit Leiden
 ---
 # CIATA heißt modernste Forschung für um maßgeschneiderte, innovative Lösungen.
 
-Bei CIATA kombinieren wir moderne Forschungsergebnisse und langjährige Erfahrung, um maßgeschneiderte, innovative Lösungen zu liefern. Unser Fachwissen erstreckt sich über Anwendungen in den Bereichen Computer Vision, NLP und Digital Health und bietet unseren Kunden reale Umsatzzuwächse durch die Nutzung von KI.
+Durch jahrzehntelange Erfahrung in **rigoroser Forschung** sind wir in der Lage, Ihnen mit Hilfe von KI einen **messbaren Umsatzzuwachs** zu verschaffen. [&rarr; Erfahren Sie mehr über CIATA.](/de/about)
+
+Sind Sie auf der Suche nach **prädiktiver Analytik**, **Empfehlungssystemen**, **Chatbots** oder **Objekterkennung**? Wir können Ihnen helfen, das Potenzial Ihrer Daten zu erschließen und Ihr Unternehmen in eine moderne Organisation zu verwandeln. [&rarr; Erfahren Sie mehr über unsere Dienstleistungen.](/de/services)

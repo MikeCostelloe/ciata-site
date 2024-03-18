@@ -7,8 +7,7 @@ blurb: "CIATA is a team of machine learning professionals who are passionate abo
 ---
 # At CIATA, we leverage cutting-edge research to deliver tailored, innovative solutions.
 
-Our expertise spans across Computer Vision, NLP and Digital Health applications offering our clients a bridge to the future of technology. 
+With decades of experience in rigorous science we are able to deliver real business value through the use of AI. [&rarr; Learn more about CIATA](/en/about).
 
-With decades of combined experience in <b>automating processes</b>, <b>saving time and manual efforts</b>, we can help you to <b>unlock the potential of your data</b> and <b>transform your business</b> into a <b>data-driven organization</b>.
- 
+Are you looking for **predictive analytics**, **recommendation systems**, **chatbots** or **object detection**? We can help you to unlock the potential of your data and transform your business into a data-driven organization. [&rarr; Learn more about our services](/en/services).
  
