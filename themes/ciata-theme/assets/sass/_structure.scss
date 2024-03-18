@@ -4,13 +4,16 @@ body {
 }
 
 header {
-    position: relative;
+    //position: relative;
+    position: fixed;
+    z-index: 9999;
     display: flex;
     padding: 3rem;
     //min-height: 100px;
     background-color: white;
     align-items: center;
     box-shadow: 0px 5px 15px $ciata__dark-blue;
+    width: 100%;
 }
 
 .branding {
@@ -52,6 +55,7 @@ header {
     position: relative;
     left: 100px;
     width: 60%;
+    margin-top: 180px;
 }
 
 .big-text {
