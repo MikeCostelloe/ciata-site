@@ -6,8 +6,8 @@ bigtext: "Your AI Experts in Berlin"
 ---
 # At CIATA, we leverage cutting-edge research to deliver tailored, innovative solutions.
 
-Our expertise spans across Computer Vision, NLP and Digital Health applications offering our clients a bridge to the future of technology. LITTLE BIT MORE HERE
+Our expertise spans across Computer Vision, NLP and Digital Health applications offering our clients a bridge to the future of technology. 
 
-BIO BIO BIO HERE
-
-IMAGE(S) OF PEOPLE AT RIGHT. Grid?
+With decades of combined experience in <b>automating processes</b>, <b>saving time and manual efforts</b>, we can help you to <b>unlock the potential of your data</b> and <b>transform your business</b> into a <b>data-driven organization</b>.
+ 
+ 

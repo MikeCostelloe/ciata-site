@@ -41,10 +41,10 @@ header {
 }
 
 .banner {
- min-height: 600px;
- display: flex;
- position: relative;
- align-items: center; 
+    min-height: 600px;
+    display: flex;
+    position: relative;
+    align-items: center;
 }
 
 .banner-container {
@@ -63,7 +63,7 @@ header {
     line-height: 130px;
     font-family: $ciata_sans;
     letter-spacing: 2px;
-    font-weight:100;
+    font-weight: 100;
     color: white;
     //padding: 5rem;
     text-align: left;
@@ -79,6 +79,7 @@ header {
     font-size: 3.2rem;
     color: white;
     padding: 2rem 0;
+    text-shadow: 3px 3px 14px #18283c;
 }
 
 .big-services-text {
@@ -145,6 +146,7 @@ main {
 
 .services-intro {
     width: 100%;
+
     p {
         font-size: 2.8rem;
         color: $ciata__gold;
@@ -198,6 +200,7 @@ main {
 
     }
 }
+
 //services block on homepage
 .services-blocks {
     //background: no-repeat url("/img/corner-br.png") bottom right;
@@ -218,17 +221,22 @@ main {
     justify-content: center;
     background-size: cover;
     background-position: center;
-    height: 300px; /* Fixed height */
-    width: 100%; /* Or specific width */
+    height: 300px;
+    /* Fixed height */
+    width: 100%;
+    /* Or specific width */
     // border-radius: 15px; /* Rounds the corners of the div */
-    // border: 1px solid #959ea1; /* Adds a border to the div */
+    border: 1px solid #959ea1;
+    /* Adds a border to the div */
     //overflow: hidden; /* Important: Ensures the background image respects the border-radius */
-    //box-shadow: 3px 3px 14px #18283c;
-    //filter: sepia(60%);
-    filter:saturate(0.1);
+    //box-shadow: inset 0px 0px 14px #18283c;
+    //filter: sepia(40%);
+    //filter: saturate(0.1);
+    filter: hue-rotate(150deg);
 }
+
 .services-image-bkg:hover {
-    filter: saturate(1);
+    //filter: saturate(1);
 }
 
 .services-title {
@@ -239,11 +247,12 @@ main {
     justify-content: center;
     font-size: 5em;
     line-height: 1em;
-    font-family: $ciata_sans;
+    //font-family: $ciata_sans;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
     color: white;
     text-align: center;
-    padding-right: 3rem;
+    padding-right: 5rem;
 }
 
 .services-links {
@@ -251,7 +260,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    padding: 3rem 5rem 3rem;
+    padding: 5rem 3rem;
     font-size: 3em;
     line-height: 1.4em;
 
@@ -402,6 +411,7 @@ main {
         font-size: 2.4rem;
         padding: 2rem 7rem;
         margin-bottom: 3rem;
+        text-shadow: 3px 3px 14px #18283c;
     }
 
     main {
