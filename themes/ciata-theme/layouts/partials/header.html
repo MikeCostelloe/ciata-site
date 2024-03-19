@@ -18,7 +18,7 @@
                   <li><a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}</a></li>
                 {{ end }}
                 {{ range $.Site.Home.AllTranslations }}
-                <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                <li class="nav-lang"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
                 {{ end }}
               </ul>
 

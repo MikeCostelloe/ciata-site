@@ -5,14 +5,63 @@ Reset
 /*--------------------------------------------------------------
 1.0 Reset
 --------------------------------------------------------------*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
 	border: 0;
 	font-family: inherit;
 	font-size: 100%;
@@ -105,6 +154,10 @@ a img {
 	border: 0;
 }
 
+strong {
+	font-weight: bold;
+}
+
 /*--------------------------------------------------------------
 Variables
 --------------------------------------------------------------*/
@@ -184,13 +237,21 @@ ol li::marker {
 /*--------------------------------------------------------------
 Structure
 --------------------------------------------------------------*/
-header {
+body {
 	position: relative;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 9999;
 	display: flex;
-	padding: 3rem;
+	padding: 1rem 3rem;
 	background-color: white;
 	align-items: center;
 	box-shadow: 0px 5px 15px #18283c;
+	width: 100%;
+	justify-content: space-between;
 }
 
 .branding {
@@ -250,6 +311,7 @@ header {
 	font-size: 3.2rem;
 	color: white;
 	padding: 2rem 0;
+	text-shadow: 3px 3px 14px #18283c;
 }
 
 .big-services-text {
@@ -378,11 +440,9 @@ main {
 	/* Fixed height */
 	width: 100%;
 	/* Or specific width */
-	filter: saturate(0.1);
-}
-
-.services-image-bkg:hover {
-	filter: saturate(1);
+	border: 1px solid #959ea1;
+	/* Adds a border to the div */
+	filter: hue-rotate(150deg);
 }
 
 .services-title {
@@ -393,11 +453,11 @@ main {
 	justify-content: center;
 	font-size: 5em;
 	line-height: 1em;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-weight: 400;
 	color: white;
 	text-align: center;
-	padding-right: 3rem;
+	padding-right: 5rem;
 }
 
 .services-links {
@@ -405,7 +465,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-	padding: 3rem 5rem 3rem;
+	padding: 5rem 3rem;
 	font-size: 3em;
 	line-height: 1.4em;
 }
@@ -467,10 +527,11 @@ main {
 	justify-content: center;
 	width: 12em;
 	padding: 2rem;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	margin: 3em auto;
 	font-size: 3rem;
 	text-align: center;
-	background-color: #e39f0d;
+	background: linear-gradient(90deg, #fcc03d 0%, #f8a800 100%);
 	border: none;
 	cursor: pointer;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -478,7 +539,29 @@ main {
 }
 
 .email-button:hover {
-	background-color: #fcc03d;
+	background: linear-gradient(90deg, #fccd67 0%, #fab623 100%);
+	color: #18283c;
+}
+
+.email-button-header {
+	display: flex;
+	max-width: 200px;
+	margin: 0 auto;
+	justify-content: center;
+	padding: 1rem 2rem;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 1.6rem;
+	text-align: center;
+	background: linear-gradient(315deg, #ffdafc 0%, #5697ff 100%);
+	cursor: pointer;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+}
+
+.email-button-header:hover {
+	background: linear-gradient(315deg, #3dcffc 0%, #005ff8 100%);
 	color: #18283c;
 }
 
@@ -542,6 +625,7 @@ main {
 		font-size: 2.4rem;
 		padding: 2rem 7rem;
 		margin-bottom: 3rem;
+		text-shadow: 3px 3px 14px #18283c;
 	}
 	main {
 		position: relative;
@@ -666,6 +750,14 @@ h2 a:hover {
 		padding-right: 1rem;
 		width: auto;
 	}
+}
+
+.main-navigation .nav-lang a {
+	color: #5697ff;
+}
+
+.main-navigation .nav-lang a:hover {
+	color: #18283c;
 }
 
 /*--------------------------------------------------------------

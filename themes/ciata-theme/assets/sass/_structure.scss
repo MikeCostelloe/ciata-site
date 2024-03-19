@@ -1,14 +1,16 @@
 body {
     // height: 100%;
     // min-height: 100vh;
+    position: relative;
 }
 
 header {
     //position: relative;
-    position: fixed;
+    position: sticky;
+    top:0;
     z-index: 9999;
     display: flex;
-    padding: 3rem;
+    padding: 1rem 3rem;
     //min-height: 100px;
     background-color: white;
     align-items: center;
@@ -56,7 +58,7 @@ header {
     position: relative;
     left: 100px;
     width: 60%;
-    margin-top: 180px;
+    //margin-top: 180px;
 }
 
 .big-text {
@@ -387,6 +389,7 @@ main {
     justify-content: center;
     width: 12em;
     padding: 2rem;
+    font-family: $ciata_sans;
     margin: 3em auto;
     font-size: 3rem;
     text-align: center;
@@ -406,9 +409,14 @@ main {
 
 .email-button-header {
     display: flex;
+    max-width: 200px;
+    margin: 0 auto;
     justify-content: center;
-    padding: 2rem;
-    font-size: 3rem;
+    padding: 1rem 2rem;
+    font-family: $ciata_sans;
+    font-weight: 400;
+    color: white;
+    font-size: 1.6rem;
     text-align: center;
     // cold gradient background
     //background: linear-gradient(90deg, #3dcffc 0%, #005ff8 100%);
