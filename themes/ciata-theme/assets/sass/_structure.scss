@@ -14,7 +14,7 @@ header {
     //min-height: 100px;
     background-color: white;
     align-items: center;
-    box-shadow: 0px 5px 15px $ciata__dark-blue;
+    box-shadow: 0px 5px 15px rgba(24,40,60, .4);
     width: 100%;
     justify-content: space-between;
 }
@@ -53,88 +53,19 @@ header {
     align-items: center;
 }
 
+.banner-video {
+    min-height: 300px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
 .banner-container {
     display: block;
     position: relative;
     left: 100px;
     width: 60%;
     //margin-top: 180px;
-}
-
-.big-text {
-    // display: block;
-    // position: relative;
-    // left: 100px;
-    // width: 60%;
-    font-size: 144px;
-    line-height: 130px;
-    font-family: $ciata_sans;
-    letter-spacing: 2px;
-    font-weight: 100;
-    color: white;
-    //padding: 5rem;
-    text-align: left;
-    background-color: transparent;
-
-    img {
-        width: 30%;
-    }
-}
-
-.banner-blurb {
-    width: 70%;
-    font-size: 3.2rem;
-    color: white;
-    padding: 2rem 0;
-    text-shadow: 3px 3px 14px #18283c;
-}
-
-.big-services-text {
-    width: 100%;
-    height: 100%;
-    font-size: 10em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 100;
-    color: white;
-    padding: 1rem 10rem;
-    text-align: center;
-    background-color: transparent;
-    text-shadow: 1px 1px 4px #5a7aa1;
-    // center vertically
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.services-bigtext {
-    font-size: 8em;
-    font-family: $ciata_sans;
-    font-weight: 100;
-    color: white;
-    padding: 1rem 7rem;
-    text-align: center;
-    background-color: transparent;
-    text-shadow: 3px 3px 14px #677586;
-    // center vertically
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text-gold {
-    color: white;
-    text-shadow: 3px 3px 14px #18283c;
-}
-
-.pull-quote {
-    position: relative;
-    float: right;
-    width: 80%;
-    margin-right: -40%;
-    padding: 6rem;
-    font-size: 4rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: $ciata__gold;
 }
 
 .content {
@@ -382,53 +313,6 @@ main {
 .services-item {
     padding: 1rem;
     flex: 1;
-}
-
-.email-button {
-    display: flex;
-    justify-content: center;
-    width: 12em;
-    padding: 2rem;
-    font-family: $ciata_sans;
-    margin: 3em auto;
-    font-size: 3rem;
-    text-align: center;
-    //background-color: $ciata__gold;
-    background: linear-gradient(90deg, #fcc03d 0%, #f8a800 100%);
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-
-    &:hover {
-        //background-color: #fcc03d;
-        background: linear-gradient(90deg, #fccd67 0%, #fab623 100%);
-        color: $ciata__dark-blue;
-    }
-}
-
-.email-button-header {
-    display: flex;
-    max-width: 200px;
-    margin: 0 auto;
-    justify-content: center;
-    padding: 1rem 2rem;
-    font-family: $ciata_sans;
-    font-weight: 400;
-    color: white;
-    font-size: 1.6rem;
-    text-align: center;
-    // cold gradient background
-    //background: linear-gradient(90deg, #3dcffc 0%, #005ff8 100%);
-    background: linear-gradient(315deg, #ffdafc 0%, #5697ff 100%);
-    cursor: pointer;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-
-    &:hover {
-        background: linear-gradient(315deg, #3dcffc 0%, #005ff8 100%);
-        color: $ciata__dark-blue;
-    }
 }
 
 

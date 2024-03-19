@@ -2,7 +2,7 @@
 title: "Consulting Services"
 date: 2024-03-07T09:21:55+01:00
 draft: false
-type: "ai-applications"
+type: "consulting-services"
 bigtext: "Consulting Services"
 ---
 We help you improve workflows, bring your team up to speed and recruit AI specialists for you. 

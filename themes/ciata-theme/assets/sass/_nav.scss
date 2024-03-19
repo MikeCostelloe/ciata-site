@@ -115,3 +115,51 @@ h2 a:hover {
 		color: $ciata__dark-blue;
 	}
 }
+
+//buttons
+.email-button {
+    display: flex;
+    justify-content: center;
+    width: 12em;
+    padding: 2rem;
+    font-family: $ciata_sans;
+    margin: 3em auto;
+    font-size: 3rem;
+    text-align: center;
+    //background-color: $ciata__gold;
+    background: linear-gradient(90deg, #fcc03d 0%, #f8a800 100%);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+
+    &:hover {
+        //background-color: #fcc03d;
+        background: linear-gradient(90deg, #fccd67 0%, #fab623 100%);
+        color: $ciata__dark-blue;
+    }
+}
+
+.email-button-header {
+    display: flex;
+    max-width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 1rem 2rem;
+    font-family: $ciata_sans;
+    font-weight: 400;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    // cold gradient background
+    //background: linear-gradient(90deg, #3dcffc 0%, #005ff8 100%);
+    background: linear-gradient(315deg, #ffdafc 0%, #5697ff 100%);
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+
+    &:hover {
+        background: linear-gradient(315deg, #3dcffc 0%, #005ff8 100%);
+        color: $ciata__dark-blue;
+    }
+}
