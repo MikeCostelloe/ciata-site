@@ -104,6 +104,21 @@ header {
     justify-content: center;
 }
 
+.services-bigtext {
+    font-size: 8em;
+    font-family: $ciata_sans;
+    font-weight: 100;
+    color: white;
+    padding: 1rem 7rem;
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 3px 3px 14px #677586;
+    // center vertically
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .text-gold {
     color: white;
     text-shadow: 3px 3px 14px #18283c;
@@ -216,8 +231,45 @@ main {
 }
 
 .services-block {
-    display: flex;
+    padding: 6rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "headline1 headline2"
+        "content1 content2";
+    grid-gap: 10px;
     width: 100%;
+    margin: auto;
+
+
+    /* Adjustments for narrow screens */
+    @media (max-width: 600px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+            /* One column in narrow screens */
+            grid-template-areas:
+                "headline1"
+                "content1"
+                "headline2"
+                "content2";
+        }
+    }
+}
+
+.headline1 {
+    grid-area: headline1;
+}
+
+.content1 {
+    grid-area: content1;
+}
+
+.headline2 {
+    grid-area: headline2;
+}
+
+.content2 {
+    grid-area: content2;
 }
 
 .services-image-bkg {
@@ -257,15 +309,17 @@ main {
     font-weight: 400;
     color: white;
     text-align: center;
-    padding-right: 5rem;
+    padding: 1rem 0rem;
 }
 
 .services-links {
-    width: 49%;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
+    justify-content: center;
     align-content: center;
-    padding: 5rem 3rem;
+
+    padding: 1rem 3rem;
     font-size: 3em;
     line-height: 1.4em;
 
