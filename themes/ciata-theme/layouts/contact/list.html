@@ -1,0 +1,34 @@
+{{ define "bigText" }}
+{{ end }}
+{{ define "main" }}
+<main>
+  <div class="main-column">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <form name="contact" method="POST" data-netlify="true">
+        <div class="form-item">
+          <label>Your Name: <input type="text" name="name" /></label>
+        </div>
+        <div class="form-item">
+          <label>Your Email: <input type="email" name="email" /></label>
+        </div>
+        <div class="form-item">
+            <label>Company: <input type="text" name="name" /></label>
+        </div>
+          <div class="form-item">
+            <label>Position: <input type="text" name="name" /></label>
+          </div>
+          <div class="form-item">
+            <label>Phone: <input type="text" name="name" /></label>
+          </div>
+          <div class="form-item">
+          <label>Message: <textarea name="message"></textarea></label>
+          </div>
+        <div class="form-item">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+    </main>
+    {{ end }}
+  
