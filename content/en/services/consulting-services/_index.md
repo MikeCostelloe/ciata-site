@@ -8,6 +8,9 @@ bigtext: "Consulting Services"
 
 # AI Strategy 
 Our AI strategy consulting services are designed to help businesses unlock the full potential of artificial intelligence. We focus on identifying and analyzing opportunities where AI can create significant value. <!--more--> Our approach includes:
+{{< rawhtml >}}
+<div class="pull-quote">Unlocking Business Potential through Tailored AI Integration and Strategic Roadmapping.</div>
+{{< /rawhtml >}}
 
 1. **Opportunity Discovery and Assessment**: We conduct thorough market and technology analyses to uncover hidden opportunities for AI integration in your business processes. Our team evaluates these opportunities to understand their feasibility and potential impact on your business.
 
@@ -65,6 +68,9 @@ Our workshops are designed to empower organizations with the knowledge and skill
 Finding the right talent is crucial for the successful implementation of AI strategies. Our recruitment help service is designed to complement our interim management offering, ensuring that your organization not only has the leadership it needs but also the right team to execute your AI vision.
 
 1. **Talent Acquisition and Team Building:** We assist in identifying and recruiting top AI talent, including data scientists, AI engineers, and strategic managers. Our extensive network and deep understanding of AI competencies allow us to find candidates who not only have the required technical skills but also align with your company's culture and strategic goals.
+{{< rawhtml >}}
+    <div class="pull-quote">Strategic AI Talent Acquisition and Development for Business Success</div>
+{{< /rawhtml >}}
 
 2. **Skill Assessment and Training Recommendations:**
 To ensure your existing team is up to the challenge, we offer skill assessments and provide recommendations for training and development. This ensures that your team stays current with the latest AI technologies and methodologies, fostering a culture of continuous learning and innovation.
