@@ -5,14 +5,8 @@
 <main>
   <div class="main-column">
     <h1>{{ .Title }}</h1>
-    <div class="services-list">
-      {{ range (where .Data.Pages "Section" "!=" "") }}
-      <div class="services-item">
-        <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
-        <div><p>{{ .Summary }}</p></div>
-        <a href="{{ .Permalink }}"><h4>More ></h4></a>
-      </div>
-      {{ end }}
+    <div class="services-intro">
+      {{ .Content }}
     </div>
     </div>
     </main>

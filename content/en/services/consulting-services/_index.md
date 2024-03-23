@@ -60,8 +60,8 @@ Our workshops are designed to empower organizations with the knowledge and skill
 5. **Educational Series and Webinars:**
     In addition to in-person workshops, we offer a series of educational webinars and online courses:
 
-    Ongoing Learning Series: Regularly scheduled webinars covering various AI topics, allowing continuous learning and keeping your team updated with the latest trends.
-    Online Course Material: Access to comprehensive online resources, enabling participants to learn at their own pace and revisit complex topics as needed.
+    + **Ongoing Learning Series:** Regularly scheduled webinars covering various AI topics, allowing continuous learning and keeping your team updated with the latest trends.
+    + **Online Course Material:** Access to comprehensive online resources, enabling participants to learn at their own pace and revisit complex topics as needed.
 
 
 # HR and Recruitment
