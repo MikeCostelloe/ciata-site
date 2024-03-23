@@ -1,12 +1,11 @@
+
 {{ define "bigText" }}
+<div class="banner-video" style="background:center / cover no-repeat url(../../../img/ciata_team.jpg);"></div>
 {{ end }}
 {{ define "main" }}
 <main>
   <div class="main-column">
-    <div class="services-intro">
-      {{ .Content }}
-    </div>
-    <!--<h1>{{ .Title }}</h1>-->
+    <h1>{{ .Title }}</h1>
     <div class="services-list">
       {{ range (where .Data.Pages "Section" "!=" "") }}
       <div class="services-item">

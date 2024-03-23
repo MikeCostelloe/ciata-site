@@ -15,15 +15,18 @@ languages:
     title: CIATA.io - AI, applied
     menus:
       main:
-      - name: Home
-        pageRef: /
-        weight: 10
-      - name: Services
-        pageRef: /services
-        weight: 20
-      - name: Contact
-        pageRef: /contact
-        weight: 30
+        - name: Home
+          pageRef: /
+          weight: 10
+        - name: About
+          pageRef: /about
+          weight: 12
+        - name: Services
+          pageRef: /services
+          weight: 20
+        - name: Contact
+          pageRef: /contact
+          weight: 30
 
     weight: 1
   de:
@@ -33,17 +36,17 @@ languages:
     languageDirection: ltr
     languageName: Deutsch
     params:
-      subtitle: Ihre KI-Fachkräfte in Berlin 
+      subtitle: Ihre KI-Fachkräfte in Berlin
     title: CIATA.io - angewandte KI
     menus:
       main:
-      - name: Startseite
-        pageRef: /
-        weight: 10
-      - name: Leistungen
-        pageRef: /services
-        weight: 20
-      - name: Kontakt
-        pageRef: /contact
-        weight: 30
+        - name: Startseite
+          pageRef: /
+          weight: 10
+        - name: Leistungen
+          pageRef: /services
+          weight: 20
+        - name: Kontakt
+          pageRef: /contact
+          weight: 30
     weight: 2
