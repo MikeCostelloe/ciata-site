@@ -1,5 +1,5 @@
 ---
-title: "AI Strategy"
+title: "KI-Strategie"
 date: 2024-02-21T13:04:21+01:00
 bigtext: "Unlock the Full Potential of Artificial Intelligence"
 draft: false

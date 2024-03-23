@@ -1,9 +1,10 @@
 ---
-title: "KI-Beratung"
+title: "KI-Strategie-Beratung"
 date: 2024-03-07T09:21:55+01:00
 draft: false
 type: "consulting-services"
 bigtext: "Beratung"
+summary: "Unsere Beratungsdienste zur KI-Strategie sind darauf ausgelegt, Unternehmen das volle Potenzial künstlicher Intelligenz zu erschließen."
 ---
 # KI-Strategie
 Unsere Beratungsdienste zur KI-Strategie sind darauf ausgelegt, Unternehmen das volle Potenzial künstlicher Intelligenz zu erschließen. Wir konzentrieren uns auf die Identifizierung und Analyse von Anwendungsmöglichkeiten, bei denen KI erheblichen Wert schaffen kann. Unser Ansatz beinhaltet:

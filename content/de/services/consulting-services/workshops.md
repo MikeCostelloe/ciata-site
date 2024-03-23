@@ -1,5 +1,5 @@
 ---
-title: "AI Workshops"
+title: "KI-Workshops"
 date: 2024-02-21T14:36:34+01:00
 bigtext: "Harness the Power of AI and Data Science"
 draft: false

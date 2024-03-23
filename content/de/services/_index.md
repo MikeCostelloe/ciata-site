@@ -13,6 +13,10 @@ Bei CIATA folgen wir einem **strukturierten Ansatz**, um sicherzustellen, dass w
 
 2. **Datenexploration und Prädiktion**: Um besser zu verstehen welchen Wert potenzielle neue Produkte haben, können wir Ihre Daten analysieren und die Auswirkungen neuer Systemkomponenten vorhersagen. Dazu ist es oft notwendig die speziellen Eigenheiten und Zusammenhänge in Ihrem System mit Ihren Experten zu durchdringen. Das Expertenwissen wird von uns formalisiert und bei der Analyse berücksichtigt. 
 
+{{< rawhtml >}}
+<div class="pull-quote">Neuer Schwung mit KI: Von der Einsicht zur Umsetzung und Wachstum mit CIATA.</div>
+{{< /rawhtml >}}
+
 3. **Prototypentwicklung**: Wir konzentrieren uns auf Produkte mit einem KI-Kern. Wir entwickeln Modelle und Systeme, die auf die Bedürfnisse Ihres Geschäfts zugeschnitten sind, basierend auf neuester Forschung und Best Practices.
 
 4. **Evaluation und Erklärung**: Ein wichtiger Teil des CIATA-Angebots ist eine rigorose Evaluation der Prototypen. Wir schätzen wissenschaftliche Gründlichkeit und stellen sicher, dass unsere Auswertung transparent, reproduzierbar und repräsentativ für die Produktionsumgebung ist. Ein wichtiger Teil der Evaluation ist die Erklärung der Funktionsweise des Modells. Was genau macht das Modell und warum? Was wird es tun, wenn die Eingaben anders aussehen?

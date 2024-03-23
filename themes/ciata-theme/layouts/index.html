@@ -19,28 +19,17 @@
           {{ .Content }}
         </div>
         <div class="main-column">
-       
+          <div class="services-page">
 
+            {{ with site.GetPage "services/ai-applications" }}
+            <div class="services-section">
+              <div class="services-image-bkg" style="background-image:url(../../img/cell_tracking.webp);">
+                  
+              </div>
+            </div>
+            {{ end }}
 
-
-<div class="services-page">
-
-  {{ with site.GetPage "services/ai-applications" }}
-  <div class="services-section">
-    <div class="services-image-bkg" style="background-image:url(../../img/cell_tracking.webp);">
-        
-    </div>
-  </div>
-  {{ end }}
-
-</div>
-
-
-
-
-
-
-
+           </div>
          </div>
         </main>
         {{- partial "services.html" . -}}

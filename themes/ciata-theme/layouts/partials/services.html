@@ -1,5 +1,5 @@
 <div class="services-blocks">
-  <div class="services-bigtext">What We Offer</div>
+  <div class="services-bigtext">{{ .Page.Params.offer }}</div>
   <div class="services-block">
     <div class="services-title headline1">{{ $sectionPage := site.GetPage "section" "ai-applications" }}
       {{ $sectionPage.Title }}

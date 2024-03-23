@@ -13,6 +13,10 @@ At CIATA we follow a **structured approach** to ensure that we deliver **real bu
 
 2. **Data exploration**: Understanding the value of potential new products often involves analyzing existing data or predicting the impacts of new components in a workflow. We will work with you to understand the potential of your data and new AI-based products.
 
+{{< rawhtml >}}
+<div class="pull-quote">Gain momentum with AI: From insight to implementation and growth with CIATA.</div>
+{{< /rawhtml >}}
+
 3. **Prototype development**: We focus on products with an artifical intelligence at their core. We will develop models and systems that are tailored to your business needs, based on most recent research and best practices. 
 
 4. **Evaluation and explanations**: An important part of the CIATA package is a rigorous evaluation of the performance of the prototypes. We take pride in the scientific rigor of our work and we will ensure that our assessment is transparent, reproducible and representative of the production environment. An essential part of the evaluation is the explanation of the model. What exactly does the model do and why? What will it do if the inputs look different?

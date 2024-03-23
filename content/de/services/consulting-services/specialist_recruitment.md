@@ -1,5 +1,5 @@
 ---
-title: "Specialist Recruitment"
+title: "Personalvermittlung"
 date: 2024-02-21T14:35:55+01:00
 bigtext: "The Right People for the Job"
 draft: false

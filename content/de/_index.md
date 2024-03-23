@@ -4,6 +4,7 @@ date: 2024-03-07T08:47:29+01:00
 draft: false
 bigText: "Ihre KI-Experten in Berlin"
 blurb: "CIATA ist ein Team von Experten für maschinelles Lernen, die mit Leidenschaft Unternehmen wachsen helfen."
+offer: "Unser Angebot"
 ---
 # CIATA heißt modernste Forschung für um maßgeschneiderte, innovative Lösungen.
 

@@ -1,13 +1,14 @@
 ---
-title: "Consulting Services"
+title: "Strategic Advisory Services"
 date: 2024-03-07T09:21:55+01:00
 draft: false
 type: "consulting-services"
-bigtext: "Consulting Services"
+bigtext: "Strategic Advisory Services"
+summary: "Unlocking Business Potential through Tailored AI Integration and Strategic Roadmapping."
 ---
 
 # AI Strategy 
-Our AI strategy consulting services are designed to help businesses unlock the full potential of artificial intelligence. We focus on identifying and analyzing opportunities where AI can create significant value. <!--more--> Our approach includes:
+Our AI strategy consulting services are designed to help businesses unlock the full potential of artificial intelligence. We focus on identifying and analyzing opportunities where AI can create significant value. Our approach includes:
 {{< rawhtml >}}
 <div class="pull-quote">Unlocking Business Potential through Tailored AI Integration and Strategic Roadmapping.</div>
 {{< /rawhtml >}}
