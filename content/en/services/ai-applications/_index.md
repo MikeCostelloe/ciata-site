@@ -11,35 +11,27 @@ Computer Vision is a field of AI that enables machines to interpret and understa
 
 1. **Object Detection and Recognition**
    
-   We develop models that can detect and recognize objects in images and videos, enabling applications such as automated quality control, inventory management, and security monitoring.
+   We develop models that can detect and recognize objects in images and videos, enabling applications such as automated quality control, inventory management, and security monitoring. Examples: Face dection, Optical Character Recognition (OCR), Pose Estimation
 
 2. **Image Classification**
     
     Our image classification models can automatically categorize images based on their content, allowing for applications such as content moderation, product recommendation, and visual search.
 
-3. **Facial Recognition**
-        
-    We build facial recognition systems that can identify individuals in images and videos, enabling applications such as access control, identity verification, and personalized marketing. 
-
-4. **Optical Character Recognition (OCR)**
-        
-    Our OCR models can extract text from images and videos, enabling applications such as document digitization, data entry automation, and text analysis.
-
-5. **Pose Estimation**
-            
-    We develop models that can estimate the pose of human bodies in images and videos, enabling applications such as fitness tracking, gesture recognition, and virtual try-on.
-
-6. **Object Tracking**
+3. **Object Tracking**
 
     Our object tracking models can follow objects in videos over time, enabling applications such as surveillance, sports analysis, and augmented reality.
     
-7. **Image Segmentation**
+4. **Image Segmentation**
 
     We build models that can segment images into different regions, enabling applications such as medical image analysis, autonomous driving, and image editing.
     
-8. **Visual Question Answering (VQA)**
+5. **Visual Question Answering (VQA)**
 
     Our VQA models can answer questions about images, enabling applications such as chatbots, virtual assistants, and image search.
+
+6. **Explainable AI**
+    
+    We develop models that can explain their decisions and predictions, enabling applications such as medical diagnosis, fraud detection, and legal compliance.
 
 ## Natural Language Processing Applications
 Natural Language Processing (NLP) is a field of AI that enables machines to understand and generate human language. At CIATA, we specialize in developing NLP applications that can help your business automate tasks, improve communication, and enhance user experiences. Our expertise includes:
