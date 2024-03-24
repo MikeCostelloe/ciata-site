@@ -3,8 +3,9 @@ title: "Time Series Prediction"
 date: 2024-02-21T13:36:08+01:00
 bigtext: "Harness Your Lifeblood"
 draft: false
+summary: "Data is the lifeblood of any business. Our data analysis services help you make sense of your data and use it to drive business growth."
 ---
-Data is the lifeblood of any business. However, the sheer volume of data available today can be overwhelming. Without the right tools and expertise, it can be difficult to extract meaningful insights from your data. This is where we come in.<!--more--> We offer a wide range of data analysis services that help you make sense of your data and use it to drive business growth.
+Data is the lifeblood of any business. However, the sheer volume of data available today can be overwhelming. Without the right tools and expertise, it can be difficult to extract meaningful insights from your data. This is where we come in. We offer a wide range of data analysis services that help you make sense of your data and use it to drive business growth.
 
 1. Advanced Data Analytics
 

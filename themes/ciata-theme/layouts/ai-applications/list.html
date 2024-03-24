@@ -6,6 +6,7 @@
 <main>
   <div class="main-column">
     <h1>{{ .Title }}</h1>
+    
     <div class="services-list">
       {{ range (where .Data.Pages "Section" "!=" "") }}
       <div class="services-item">
@@ -15,6 +16,11 @@
       </div>
       {{ end }}
     </div>
+
+    <div class="services-intro">
+      {{ .Content }}
+    </div>
+    
     </div>
     </main>
     {{ end }}

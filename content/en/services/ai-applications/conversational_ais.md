@@ -3,9 +3,10 @@ title: "Conversational AIs"
 date: 2024-02-21T14:31:59+01:00
 bigtext: "From Innovative Ideas to Testable Products"
 draft: false
+summary: "Chatbots and language-based AI systems in customer service, data collection, document search and more."
 ---
 
-We offer prototype development services to turn your innovative ideas into testable products. Our team specializes in AI and data science, allowing us to create prototypes that leverage the latest technologies and methodologies. We employ agile methodologies to develop prototypes swiftly, allowing you to test and validate your concepts with real users.<!--more--> Our experts create and train machine learning models, ensuring they are accurate, efficient, and scalable. We also provide comprehensive full-stack pipeline development services to create end-to-end solutions. 
+We offer prototype development services to turn your innovative ideas into testable products. Our team specializes in AI and data science, allowing us to create prototypes that leverage the latest technologies and methodologies. We employ agile methodologies to develop prototypes swiftly, allowing you to test and validate your concepts with real users. Our experts create and train machine learning models, ensuring they are accurate, efficient, and scalable. We also provide comprehensive full-stack pipeline development services to create end-to-end solutions. 
 
 1. Minimum Viable Product (MVP) Development:
     Our MVP development services are tailored to quickly turn your innovative ideas into testable products. This includes:
