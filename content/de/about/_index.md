@@ -2,9 +2,7 @@
 title: "About"
 date: 2024-02-14T09:52:47+01:00
 draft: false
-menu: main
 bigtext: "Research-Driven AI Solutions"
-weight: 2
 ---
 # CIATA ist ein Team von Fachleuten für maschinelles Lernen, die leidenschaftlich daran interessiert sind, Unternehmen beim Wachsen zu helfen.
 

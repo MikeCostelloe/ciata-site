@@ -193,7 +193,10 @@ p {
 	font-weight: 100;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	font-family: 'Tahoma';
 	margin-bottom: 3.6rem;
 }
@@ -230,8 +233,9 @@ ol li {
 }
 
 ol li::marker {
-	font-size: 1.6rem;
-	color: #bbbbbb;
+	font-size: 2rem;
+	color: black;
+	font-weight: 900;
 }
 
 .big-text {
@@ -393,8 +397,8 @@ main {
 }
 
 .services-intro p {
-	font-size: 2.8rem;
-	color: #e39f0d;
+	font-size: 2rem;
+	color: #1f1f1f;
 }
 
 .services-section {
@@ -595,6 +599,17 @@ main {
 	max-width: 96rem;
 	padding: 0 2rem;
 	flex: 1;
+}
+
+.main-column img {
+	width: 60%;
+	height: auto;
+	object-fit: cover;
+	float: right;
+	margin: 0em -14%;
+	position: relative;
+	left: 20%;
+	border: 1px solid #959ea1;
 }
 
 .placeholder {

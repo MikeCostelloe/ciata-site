@@ -43,6 +43,9 @@ languages:
         - name: Startseite
           pageRef: /
           weight: 10
+        - name: Über Uns
+          pageRef: /about
+          weight: 12
         - name: Leistungen
           pageRef: /services
           weight: 20
