@@ -71,12 +71,12 @@ header {
 .content {
     position: relative;
     display: block;
-    background-image: linear-gradient(350deg,
+    background-image: linear-gradient(355deg,
             hsl(41deg, 89%, 47%) 0%,
-            hsl(38deg, 83%, 62%) 12%,
-            hsl(36deg, 88%, 72%) 17%,
-            hsl(34deg, 94%, 82%) 23%,
-            hsl(33deg, 97%, 91%) 37%,
+            hsl(38deg, 83%, 62%) 5%,
+            hsl(36deg, 88%, 72%) 8%,
+            hsl(34deg, 94%, 82%) 12%,
+            hsl(33deg, 97%, 91%) 20%,
             hsl(0deg, 0%, 99%) 70%,
             hsl(0deg, 0%, 100%) 90%);
 }
@@ -362,6 +362,17 @@ main {
 }
 
 //end-experiment
+@media screen and (max-width: 1399px) {
+    .main-column {
+        img {
+            width: 50%;
+            float: right;
+            margin: 2rem 0 0 2rem;
+            left: 0;
+        }
+    }
+}
+
 
 @media screen and (max-width: $ciata__breakpoint) {
     .branding {
@@ -406,6 +417,15 @@ main {
         max-width: 65rem;
         padding: 4rem;
         margin: 0 auto;
+    }
+
+    .main-column {
+        img {
+            width: 100%;
+            float: none;
+            margin: 0;
+            left: 0;
+        }
     }
 
     .services-list {

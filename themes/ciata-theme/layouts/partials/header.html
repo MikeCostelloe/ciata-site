@@ -17,8 +17,14 @@
                 {{ range .Site.Menus.main }}
                   <li><a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}</a></li>
                 {{ end }}
-                {{ range $.Site.Home.AllTranslations }}
-                <li class="nav-lang"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                {{ if eq $.Site.Language.LanguageName "Deutsch" }}
+                {{ with index .Site.Sites 0 }}
+                <li class="nav-lang"><a href="{{ .Home.Permalink }}">EN</a></li>
+                {{end}}
+                {{ else }}
+                {{ with index .Site.Sites 1 }}
+                <li class="nav-lang"><a href="{{ .Home.Permalink }}">DE</a></li>
+                {{end}}
                 {{ end }}
               </ul>
 

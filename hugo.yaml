@@ -27,6 +27,13 @@ languages:
         - name: Contact
           pageRef: /contact
           weight: 30
+      services:
+        - name: Strategic Advisory Services
+          pageRef: /services#consulting
+          weight: 10
+        - name: AI Implementation
+          pageRef: /services#implementation
+          weight: 20
 
     weight: 1
   de:
@@ -52,4 +59,11 @@ languages:
         - name: Kontakt
           pageRef: /contact
           weight: 30
+      services:
+        - name: KI-Strategie-Beratung
+          pageRef: /services#consulting
+          weight: 10
+        - name: KI-Implementierung
+          pageRef: /services#implementation
+          weight: 20
     weight: 2

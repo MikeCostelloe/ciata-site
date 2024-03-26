@@ -307,6 +307,28 @@ ol li::marker {
 	color: #e39f0d;
 }
 
+@media screen and (max-width: 1399px) {
+	.pull-quote {
+		position: relative;
+		float: right;
+		width: 50%;
+		margin-right: 0;
+		padding: 4rem;
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 799px) {
+	.pull-quote {
+		position: relative;
+		float: none;
+		width: 100%;
+		margin-right: 0;
+		padding: 3rem;
+		font-size: 3rem;
+	}
+}
+
 /*--------------------------------------------------------------
 Structure
 --------------------------------------------------------------*/
@@ -374,7 +396,7 @@ header {
 .content {
 	position: relative;
 	display: block;
-	background-image: linear-gradient(350deg, #e39f0d 0%, #efb44e 12%, #f6c479 17%, #fcd7a6 23%, #feead2 37%, #fcfcfc 70%, white 90%);
+	background-image: linear-gradient(355deg, #e39f0d 0%, #efb44e 5%, #f6c479 8%, #fcd7a6 12%, #feead2 20%, #fcfcfc 70%, white 90%);
 }
 
 main {
@@ -619,6 +641,15 @@ main {
 	height: 500px;
 }
 
+@media screen and (max-width: 1399px) {
+	.main-column img {
+		width: 50%;
+		float: right;
+		margin: 2rem 0 0 2rem;
+		left: 0;
+	}
+}
+
 @media screen and (max-width: 799px) {
 	.branding {
 		display: flex;
@@ -657,6 +688,12 @@ main {
 		padding: 4rem;
 		margin: 0 auto;
 	}
+	.main-column img {
+		width: 100%;
+		float: none;
+		margin: 0;
+		left: 0;
+	}
 	.services-list {
 		display: block;
 	}
@@ -680,7 +717,7 @@ Nav
 --------------------------------------------------------------*/
 a,
 a:visited {
-	color: #18283c;
+	color: #e39f0d;
 	text-decoration: none;
 }
 
@@ -699,6 +736,9 @@ h2 a:hover {
 
 .main-navigation {
 	display: block;
+	font-family: sans-serif;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
 }
 
 .main-navigation ul {
@@ -718,9 +758,6 @@ h2 a:hover {
 	display: block;
 	width: 100%;
 	height: 100%;
-	font-family: sans-serif;
-	font-size: 1.4rem;
-	letter-spacing: 1px;
 	text-decoration: none;
 	color: black;
 }

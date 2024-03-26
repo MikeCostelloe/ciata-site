@@ -1,7 +1,7 @@
 a,
 a:visited {
 	//color: #4589df;
-	color: $ciata__dark-blue;
+	color: $ciata__gold;
 	text-decoration: none;
 }
 
@@ -27,6 +27,9 @@ h2 a:hover {
 	//margin: 0 auto;
 	//padding-top: 1rem;
 	display: block;
+	font-family: $font__sans;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
 
 	ul {
 		display: none;
@@ -44,9 +47,6 @@ h2 a:hover {
 				display: block;
 				width: 100%;
 				height: 100%;
-				font-family: $font__sans;
-				font-size: 1.4rem;
-				letter-spacing: 1px;
 				text-decoration: none;
 				color: black;
 			}

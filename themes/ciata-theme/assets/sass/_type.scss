@@ -127,3 +127,25 @@ ol {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: $ciata__gold;
 }
+
+@media screen and (max-width: 1399px) {
+    .pull-quote {
+        position: relative;
+        float: right;
+        width: 50%;
+        margin-right: 0;
+        padding: 4rem;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: $ciata__breakpoint) {
+    .pull-quote {
+        position: relative;
+        float:none;
+        width: 100%;
+        margin-right: 0;
+        padding: 3rem;
+        font-size: 3rem;
+    }
+}
