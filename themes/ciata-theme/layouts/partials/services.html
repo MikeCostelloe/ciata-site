@@ -1,8 +1,10 @@
 <div class="services-blocks">
   <div class="services-bigtext">{{ .Page.Params.offer }}</div>
   <div class="services-block">
-    <div class="services-title headline1">{{ $sectionPage := site.GetPage "section" "ai-applications" }}
-      {{ $sectionPage.Title }}
+    <div class="services-title headline1">
+      {{ with .Site.GetPage "section" "ai-applications" }}
+      <a href ="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
     </div>
     
     <div class="services-links content1">
@@ -15,8 +17,11 @@
       </ul>
     </div>
 
-    <div class="services-title headline2">{{ $sectionPage := site.GetPage "section" "consulting-services" }}
-      {{ $sectionPage.Title }}</div>
+    <div class="services-title headline2">
+      {{ with .Site.GetPage "section" "consulting-services" }}
+      <a href ="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
+    </div>
 
       
       

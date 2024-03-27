@@ -715,14 +715,13 @@ main {
 /*--------------------------------------------------------------
 Nav
 --------------------------------------------------------------*/
-a,
-a:visited {
+a {
 	color: #e39f0d;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #e39f0d;
+	color: #fcd7a6;
 }
 
 h2 a,
@@ -834,11 +833,12 @@ h2 a:hover {
 	cursor: pointer;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
+	color: black;
 }
 
 .email-button:hover {
 	background: linear-gradient(90deg, #fccd67 0%, #fab623 100%);
-	color: #18283c;
+	color: white;
 }
 
 .email-button-header {

@@ -1,5 +1,4 @@
-a,
-a:visited {
+a {
 	//color: #4589df;
 	color: $ciata__gold;
 	text-decoration: none;
@@ -10,7 +9,7 @@ a {
 }
 
 a:hover {
-	color: $ciata__gold;
+	color: $ciata__yellow;
 }
 
 h2 a,
@@ -137,11 +136,12 @@ h2 a:hover {
 	cursor: pointer;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
+	color: black;
 
 	&:hover {
 		//background-color: #fcc03d;
 		background: linear-gradient(90deg, #fccd67 0%, #fab623 100%);
-		color: $ciata__dark-blue;
+		color: white;
 	}
 }
 
