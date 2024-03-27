@@ -28,6 +28,6 @@ At CIATA we follow a **structured approach** to ensure that we deliver **real bu
 7. **Monitoring and maintenance**: The world often changes subtly and your AI models might find itself faced with unknown data. We will help you to monitor the performance of the model, detect data drifts and to ensure that it does what it was supposed to in the first place.
 
 8. **Training and HR**: We can help you to train your team in developing your systems further. We offer workshops and training sessions that are tailored to your needs. After integrating a new AI system into your business, we can help you identify new hires that will help you to grow your AI capabilities.
-
+<span id="services-we-offer"></span>
 # Services we offer
 If you already know what you want, we can help you to get there. Read more about our services:

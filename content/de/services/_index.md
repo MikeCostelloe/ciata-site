@@ -28,6 +28,6 @@ Bei CIATA folgen wir einem **strukturierten Ansatz**, um sicherzustellen, dass w
 7. **Überwachung und Wartung**: Die Welt verändert sich oft schleichend und Ihre KI-Modelle könnten sich mit unbekannten Daten konfrontiert sehen. Wir werden Ihnen helfen, die Leistung des Modells zu überwachen, Datenverschiebungen zu erkennen und sicherzustellen, dass es immer das tut, was tun soll.
 
 8. **Schulung und HR**: Wir können Ihnen helfen, Ihr Team in der Weiterentwicklung Ihrer Systeme zu schulen. Wir bieten Workshops und Schulungen an, die auf Ihre Bedürfnisse zugeschnitten sind. Nach der Integration eines neuen KI-Systems in Ihr Geschäft können wir Ihnen helfen, neue Mitarbeiter zu finden, die Ihnen helfen werden, Ihre KI-Fähigkeiten auszubauen.
-
+<span id="services-we-offer"></span> 
 # Technische Dienstleistungen und Beratung aus einer Hand
 Wir beraten Sie gerne in allen Fragen rund um KI und Daten. Wir bieten Ihnen maßgeschneiderte Lösungen, die auf Ihre Bedürfnisse zugeschnitten sind. Erfahren Sie mehr über unsere Dienstleistungen:

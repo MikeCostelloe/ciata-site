@@ -12,7 +12,7 @@
             Jump to:
           {{ end }}
           {{ range .Site.Menus.services }}
-            <li><a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}</a></li>
+            <li><a href="#offered-services">{{ .Name }}{{ .Pre }}</a></li>
           {{ end }}
         </ul>
 
@@ -21,7 +21,7 @@
       {{ .Content }}
     </div>
     <!--<h1>{{ .Title }}</h1>-->
-    <div class="services-list">
+    <div id="offered-services" class="services-list">
       {{ range (where .Data.Pages "Section" "!=" "") }}
       <div class="services-item">
         <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
