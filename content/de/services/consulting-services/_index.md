@@ -6,7 +6,7 @@ type: "consulting-services"
 bigtext: "Beratung"
 summary: "Unsere Beratungsdienste zur KI-Strategie sind darauf ausgelegt, Unternehmen das volle Potenzial künstlicher Intelligenz zu erschließen."
 ---
-# KI-Strategie
+## KI-Strategie
 Unsere Beratungsdienste zur KI-Strategie sind darauf ausgelegt, Unternehmen das volle Potenzial künstlicher Intelligenz zu erschließen. Wir konzentrieren uns auf die Identifizierung und Analyse von Anwendungsmöglichkeiten, bei denen KI erheblichen Wert schaffen kann. Unser Ansatz beinhaltet:
 {{< rawhtml >}}
 <div class="pull-quote">Neue Geschäftspotenziale erschließen durch die richtige KI-Strategie.</div>
@@ -24,7 +24,7 @@ Unsere Beratungsdienste zur KI-Strategie sind darauf ausgelegt, Unternehmen das 
 
 5. **Positionierung von Daten/KI-Assets:** Die Nutzung von KI erfordert ein tiefes Verständnis von Daten und wie man sie effektiv in Ihrer KI-Strategie positioniert. Wir bieten eine Bewertung Ihrer bestehenden Datenassets an und spezifizieren, wie diese für KI-Anwendungen optimiert werden können. Unser Team bietet Einblicke in Datenstrukturierung, -anreicherung und -management, um sicherzustellen, dass Ihre Datenassets bereit sind, leistungsstarke KI-Lösungen zu unterstützen.
 
-# Workshops
+## Workshops
 Unsere Workshops sind darauf ausgerichtet, Organisationen mit dem Wissen und den Fähigkeiten auszustatten, die benötigt werden, um KI und Data Science optimal zu nutzen. Zu den unserem Angebot gehören:
 
 1. **Individuelle Lernmodule:** Angepasst an die spezifischen Bedürfnisse Ihres Teams, decken unsere Workshops eine Reihe von Themen ab, von den Grundprinzipien von KI und Data Science bis hin zu fortgeschrittenen Techniken.
@@ -57,7 +57,7 @@ Unsere Workshops sind darauf ausgerichtet, Organisationen mit dem Wissen und den
     - **Laufende Lernserie:** Regelmäßig geplante Webinare, die verschiedene KI-Themen abdecken, ermöglichen kontinuierliches Lernen und halten Ihr Team mit den neuesten Trends auf dem Laufenden.
     - **Online-Kursmaterial:** Zugang zu umfassenden Online-Ressourcen, die es Teilnehmern ermöglichen, in ihrem eigenen Tempo zu lernen und komplexe Themen bei Bedarf erneut zu besuchen.
 
-# HR und Rekrutierung
+## HR und Rekrutierung
 Das Finden des richtigen Talents ist entscheidend für die erfolgreiche Implementierung von KI-Strategien. Unser Rekrutierungshilfe-Dienst ist darauf ausgelegt, unser Interim-Management-Angebot zu ergänzen und sicherzustellen, dass Ihre Organisation nicht nur die benötigte Führung hat, sondern auch das richtige Team, um Ihre KI-Vision umzusetzen.
 
 1. **Talenterwerb und Team-Bildung:** Wir unterstützen beim Identifizieren und Rekrutieren von Top-KI-Talenten, einschließlich Datenwissenschaftlern, KI-Ingenieuren und strategischen Managern. Unser umfangreiches Netzwerk und tiefes Verständnis der KI-Kompetenzen ermöglichen es uns, Kandidaten zu finden, die nicht nur die erforderlichen technischen Fähigkeiten haben, sondern auch mit der Kultur und den strategischen Zielen Ihres Unternehmens übereinstimmen.

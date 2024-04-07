@@ -7,7 +7,7 @@ bigtext: "Strategic Advisory Services"
 summary: "Unlocking Business Potential through Tailored AI Integration and Strategic Roadmapping."
 ---
 
-# AI Strategy 
+## AI Strategy 
 Our AI strategy consulting services are designed to help businesses unlock the full potential of artificial intelligence. We focus on identifying and analyzing opportunities where AI can create significant value. Our approach includes:
 {{< rawhtml >}}
 <div class="pull-quote">Unlocking Business Potential through Tailored AI Integration and Strategic Roadmapping.</div>
@@ -25,7 +25,7 @@ Our AI strategy consulting services are designed to help businesses unlock the f
 
 5. **Data/AI Asset Positioning**: Leveraging AI requires a deep understanding of data and how to position it effectively within your AI strategy. We offer services to evaluate your existing data assets and identify how they can be optimized for AI applications. Our team provides insights on data structuring, enrichment, and management, ensuring that your data assets are primed to fuel powerful AI solutions.
 
-# Workshops
+## Workshops
 
 Our workshops are designed to empower organizations with the knowledge and skills needed to harness the power of AI and data science. Key features include:
 
@@ -65,7 +65,7 @@ Our workshops are designed to empower organizations with the knowledge and skill
     + **Online Course Material:** Access to comprehensive online resources, enabling participants to learn at their own pace and revisit complex topics as needed.
 
 
-# HR and Recruitment
+## HR and Recruitment
 Finding the right talent is crucial for the successful implementation of AI strategies. Our recruitment help service is designed to complement our interim management offering, ensuring that your organization not only has the leadership it needs but also the right team to execute your AI vision.
 
 1. **Talent Acquisition and Team Building:** We assist in identifying and recruiting top AI talent, including data scientists, AI engineers, and strategic managers. Our extensive network and deep understanding of AI competencies allow us to find candidates who not only have the required technical skills but also align with your company's culture and strategic goals.
