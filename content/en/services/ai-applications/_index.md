@@ -9,137 +9,108 @@ summary: "Modern AI can help implement new business cases. Learn more about the 
 ## Computer Vision Applications
 Computer Vision is a field of AI that enables machines to interpret and understand the visual world. At CIATA, we specialize in developing Computer Vision applications that can help your business automate tasks, improve efficiency, and enhance customer experiences. Our expertise includes:
 
-1. **Object Detection and Recognition**
-   
-   We develop models that can detect and recognize objects in images and videos, enabling applications such as automated quality control, inventory management, and security monitoring. Examples: Face dection, Optical Character Recognition (OCR), Pose Estimation
+1. **Image Classification, Object Detection and Image Segmentation**
 
-2. **Image Classification**
+    We develop models that can categorize images, detect and recognize objects in images and videos, or segment images and videos into semantic regions. This enables applications such as automated quality control, inventory management, and security monitoring. Examples include: content moderation, product recommendation, visual search,face dection, people counting, fault detection, pptical character recognition (OCR), pose estimation, medical image analysis, autonomous driving, image editing and more.
+
+2. **Object Tracking**
+
+    Our object tracking models can reliably follow objects in videos over time, enabling applications such as surveillance, counting, sports analysis, action recognition, and more. The positions obtained on the image or the video can be translated to so-called world coordinates, which can be used to understand the objects' movements in the real world.
+
+{{< attr class="image_no_borders" >}}
+![Information Bottleneck Attribution: Which input pixels were relevant for the model output "monkey"?](../../../img/monkeys.gif) 
+**Figure:** Our method "Information Bottleneck Attribution" (Schulz et al. 2020) can be used to understand which input pixels were relevant for the model output "monkey". The method is based on the Information Bottleneck principle and can be used to understand the model's decision-making process.
+{{< /attr >}}
+
+3. **Explainable AI**
     
-    Our image classification models can automatically categorize images based on their content, allowing for applications such as content moderation, product recommendation, and visual search.
+    Deep learning models are powerful and represent the state of the art in computer vision. Clients often ask: "Why did the model predict XYZ?". One way to approach a deeper understanding of computer vision models is through Explainable AI (XAI). We apply and develop new models that can explain their decisions and predictions, enabling applications such as medical diagnosis, fraud detection, and legal compliance.
 
-3. **Object Tracking**
+Our publications computer vision, tracking and explainability:
+{{< attr class="pub_list" >}}
+- [Boenisch, F., Rosemann, B., Wild, B., Dormagen, D., Wario, F., & Landgraf, T. (2018). Tracking All Members of a Honey Bee Colony Over Their Lifetime Using Learned Models of Correspondence. Frontiers in Robotics and AI, 5, 35.](https://doi.org/10.3389/frobt.2018.00035)
 
-    Our object tracking models can follow objects in videos over time, enabling applications such as surveillance, sports analysis, and augmented reality.
-    
-4. **Image Segmentation**
+- [Dormagen, D. M., Wild, B., Wario, F., & Landgraf, T. (2023). Machine learning reveals the waggle drift’s role in the honey bee dance communication system. PNAS Nexus, 2(9)](https://doi.org/10.1093/pnasnexus/pgad275)
 
-    We build models that can segment images into different regions, enabling applications such as medical image analysis, autonomous driving, and image editing.
-    
-5. **Visual Question Answering (VQA)**
+- [Landgraf, T., & Rojas, R. (2007). Tracking honey bee dances from sparse optical flow fields.](https://refubium.fu-berlin.de/handle/fub188/19039)
 
-    Our VQA models can answer questions about images, enabling applications such as chatbots, virtual assistants, and image search.
+- [Mönck, H. J., Jörg, A., von Falkenhausen, T., Tanke, J., Wild, B., Dormagen, D., et al. (2018). BioTracker: An Open-Source Computer Vision Framework for Visual Animal Tracking. arXiv.](https://doi.org/10.48550/arXiv.1803.07985)
 
-6. **Explainable AI**
-    
-    We develop models that can explain their decisions and predictions, enabling applications such as medical diagnosis, fraud detection, and legal compliance.
+- [Polster, J., Petrasch, J., Menzel, R., & Landgraf, T. (2019, June 21). Reconstructing the visual perception of honey bees in complex 3-D worlds. arXiv.](https://doi.org/10.48550/arXiv.1811.07560)
 
-## Natural Language Processing Applications
+- [Schulz, K., Sixt, L., Tombari, F., & Landgraf, T. (2020). Restricting the Flow: Information Bottlenecks for Attribution. In Proceedings of the International Conference on Learning Representations. Presented at the International Conference on Learning Representations.](https://openreview.net/forum?id=S1xWh1rYwB)
+
+- [Sixt, L., Granz, M., & Landgraf, T. (2020). When Explanations Lie: Why Many Modified BP Attributions Fail. In Proceedings of the International Conference on Machine Learning (Vol. 1).](https://proceedings.icml.cc/paper/2020/hash/af21d0c97db2e27e13572cbf59eb343d)
+
+- [Sixt, L., & Landgraf, T. (2022). A Rigorous Study Of The Deep Taylor Decomposition. Transactions on Machine Learning Research.](https://doi.org/10.48550/arXiv.2211.08425)
+
+- [Sixt, L., Schuessler, M., Popescu, O.-I., Weiß, P., & Landgraf, T. (2022). Do Users Benefit From Interpretable Vision? A User Study, Baseline, And Dataset. In Proceedings of the International Conference on Learning Representations. Presented at the International Conference on Learning Representations.](https://openreview.net/forum?id=v6s3HVjPerv)
+
+- [Sixt, L., Schuessler, M., Weiß, P., & Landgraf, T. (2020). Interpretability Through Invertibility: A Deep Convolutional Network With Ideal Counterfactuals And Isosurfaces.](https://openreview.net/forum?id=8YFhXYe1Ps)
+
+- [Sixt, L., Wild, B., & Landgraf, T. (2018). RenderGAN: Generating Realistic Labeled Data. Frontiers in Robotics and AI, 5.](https://doi.org/10.3389/frobt.2018.00066)
+
+- [Wario, F., Wild, B., Couvillon, M. J., Rojas, R., & Landgraf, T. (2015). Automatic methods for long-term tracking and the detection and decoding of communication dances in honeybees. Frontiers in Ecology and Evolution, 3, 103.](https://doi.org/10.3389/fevo.2015.00103)
+
+- [Wario, F., Wild, B., Rojas, R., & Landgraf, T. (2017). Automatic detection and decoding of honey bee waggle dances. PLOS ONE, 12(12), e0188626.](https://doi.org/10.1371/journal.pone.0188626)
+
+- [Wild, B., Dormagen, D. M., Zachariae, A., Smith, M. L., Traynor, K. S., Brockmann, D., et al. (2021). Social networks predict the life and death of honey bees. Nature Communications, 12(1), 1110.](https://doi.org/10.1038/s41467-021-21212-5)
+
+- [Wild, B., Sixt, L., & Landgraf, T. (2018). Automatic localization and decoding of honeybee markers using deep convolutional neural networks. arXiv.](https://doi.org/10.48550/arXiv.1802.04557)
+{{< /attr >}}
+
+## Natural Language Processing Applications and Conversational AIs
 Natural Language Processing (NLP) is a field of AI that enables machines to understand and generate human language. At CIATA, we specialize in developing NLP applications that can help your business automate tasks, improve communication, and enhance user experiences. Our expertise includes:
 
-1. **Text Classification**
+1. **Text Classification, Named Entity Recognition (NER), Sentiment Analysis**
    
    We develop models that can classify text into different categories, enabling applications such as sentiment analysis, spam detection, and content recommendation.
 
-2. **Named Entity Recognition (NER)**
-    
-    Our NER models can identify and classify named entities in text, enabling applications such as information extraction, entity linking, and question answering.
-
-3. **Text Generation**
+2. **Generative AI, Text Summarization, Machine Translation**
         
-    We build text generation models that can generate human-like text, enabling applications such as chatbots, content creation, and language translation.
+    In the last years, large language models have revolutionized natural language processing. We offer services to host, fine-tune and prompt these models for your specific needs. We help you use language models from OpenAI, Cohere, Mistral, Google, Anthropic or your provider of choice. We can help you with text summarization, machine translation, text generation, and more.
 
-4. **Machine Translation**
-
-    Our machine translation models can translate text between different languages, enabling applications such as multilingual communication, global marketing, and cross-cultural collaboration.
-
-5. **Text Summarization**
-
-    We develop models that can summarize text into concise and informative snippets, enabling applications such as news aggregation, document summarization, and content curation.
-
-6. **Sentiment Analysis**
-
-    Our sentiment analysis models can analyze the sentiment of text, enabling applications such as social media monitoring, brand reputation management, and customer feedback analysis.
-
-7. **Question Answering**
-
-    We build question answering models that can answer questions based on text, enabling applications such as chatbots, customer support, and knowledge management.
-
-8. **Text Similarity**
-
-    Our text similarity models can measure the similarity between texts, enabling applications such as plagiarism detection, duplicate content identification, and search result ranking.
-
-## Conversational AI Applications
-
-Conversational AI is a field of AI that enables machines to engage in natural language conversations with humans. At CIATA, we specialize in developing Conversational AI applications that can help your business automate customer interactions, streamline data collection, and enhance user engagement. Our expertise includes:
-
-1. **Chatbots**
-   
-   We develop chatbots that can interact with users in natural language, enabling applications such as customer support, lead generation, and appointment scheduling.
-
-2. **Virtual Assistants**
+3. **Chatbots, virtual assistants, voice assistants**
     
-    Our virtual assistants can assist users with tasks and queries, enabling applications such as personal productivity, information retrieval, and task automation.
+    We offer a variety of chatbots that can interact with users in natural language, enabling applications such as customer support, lead generation, and appointment scheduling. Our virtual assistants can assist users with tasks and queries, enabling applications such as personal productivity, information retrieval, and task automation. We build voice assistants that can respond to voice commands, enabling applications such as hands-free operation, voice search, and voice-controlled devices.
 
-3. **Voice Assistants**
+4. **Document Search Systems**
 
-    We build voice assistants that can respond to voice commands, enabling applications such as hands-free operation, voice search, and voice-controlled devices.
+    We have used modern LLMs for powerful document search systems that can retrieve information from text documents, enabling applications such as legal research, academic study, and corporate knowledge management.
 
-4. **Conversational Agents**
+Our publications in NLP and Conversational AI:
 
-    Our conversational agents can engage users in natural language conversations, enabling applications such as customer service, data collection, and user feedback.
+{{< attr class="pub_list" >}}
+- [Solopova, V., Benzmüller, C., & Landgraf, T. (2023). The Evolution of Pro-Kremlin Propaganda From a Machine Learning and Linguistics Perspective. In Proceedings of the Second Ukrainian Natural Language Processing Workshop (UNLP) (pp. 40–48). Presented at the UNLP 2023, Dubrovnik, Croatia: Association for Computational Linguistics.](https://aclanthology.org/2023.unlp-1.5)
 
-5. **Interactive Voice Response (IVR) Systems** 
+- [Solopova, V., Herman, V., Benzmüller, C., & Landgraf, T. (2024). Check News in One Click: NLP-Empowered Pro-Kremlin Propaganda Detection. In N. Aletras & O. De Clercq (Eds.), Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations (pp. 44–51). St. Julians, Malta: Association for Computational Linguistics.](https://aclanthology.org/2024.eacl-demo.6)
+
+- [Solopova, V., Popescu, O.-I., Benzmüller, C., & Landgraf, T. (2023). Automated multilingual detection of Pro-Kremlin propaganda in newspapers and Telegram posts. arXiv.](https://doi.org/10.48550/arXiv.2301.10604)
+
+- [Solopova, V., Popescu, O.-I., Chikobava, M., Romeike, R., Landgraf, T., & Benzmüller, C. (2021). A German Corpus of Reflective Sentences. In Proceedings of the 18th International Conference on Natural Language Processing (ICON) (pp. 593–600). Presented at the ICON 2021, National Institute of Technology Silchar, Silchar, India: NLP Association of India (NLPAI).](https://aclanthology.org/2021.icon-main.72) 
+
+- [Solopova, V., Rostom, E., Cremer, F., Gruszczynski, A., Witte, S., Zhang, C., et al. (2023). PapagAI: Automated Feedback for Reflective Essays. In D. Seipel & A. Steen (Eds.), KI 2023: Advances in Artificial Intelligence (pp. 198–206). Cham: Springer Nature Switzerland.](https://doi.org/10.1007/978-3-031-42608-7_16)
+{{< /attr >}}
+
+## Time Series Prediction, Tabular Data Analysis
+Time Series Prediction and Tabular Data Analysis are fields of AI that enable machines to analyze and predict patterns in sequential and structured data. At CIATA, we specialize in developing Time Series Prediction and Tabular Data Analysis applications that can help your business automate tasks, improve forecasting, and enhance decision-making. Our expertise includes:
+
+1. **Time Series Forecasting and Anomaly Detection**
+
+    We develop models that can predict future values in time series data, detect anomalies in time series data, or recognize patterns in time series data. This enables applications such as demand forecasting, fraud detection, and predictive maintenance. Time series data may gradually drift over time, and we can help you to detect these drifts and to adapt your models accordingly.
+
+2. **Tabular Data Analysis, Feature Engineering, Model Interpretability**
     
-    We develop IVR systems that can interact with users over the phone, enabling applications such as call routing, appointment reminders, and automated surveys.   
+    We develop models that can analyze structured data, extract meaningful features from structured data, or interpret models trained on structured data. This enables applications such as customer segmentation, churn prediction, and risk assessment. We can help you to understand the importance of features in your models and to make informed decisions based on these insights.
 
-6. **Document Search Systems**
+Our publications in Time Series Prediction and Tabular Data Analysis:
 
-    We build document search systems that can retrieve information from text documents, enabling applications such as legal research, academic study, and corporate knowledge management.
+{{< attr class="pub_list" >}}
+- [Herrmann, L., Granz, M., & Landgraf, T. (2022). Chaotic Dynamics are Intrinsic to Neural Network Training with SGD. Presented at the Advances in Neural Information Processing Systems.](https://openreview.net/forum?id=ffy-h0GKZbK)
 
-7. **Data Collection Bots**
+- [Nader, Y., Sixt, L., & Landgraf, T. (2022).DNNR: Differential Nearest Neighbors Regression. In Proceedings of the 39th International Conference on Machine Learning (pp. 16296–16317). Presented at the International Conference on Machine Learning, PMLR.](https://proceedings.mlr.press/v162/nader22a.html)
 
-    Our data collection bots can gather information from users through conversational interactions, enabling applications such as market research, user feedback, and data annotation.
+{{< /attr >}}
 
-8. **Language Understanding Systems**
-
-    We develop language understanding systems that can interpret user queries and commands, enabling applications such as search engines, recommendation systems, and content filtering.
-
-## AI-Powered Decision Support Systems
-
-AI-Powered Decision Support Systems are applications that leverage AI to assist humans in making better decisions. At CIATA, we specialize in developing AI-Powered Decision Support Systems that can help your business analyze data, predict outcomes, and optimize processes. Our expertise includes:
-
-1. **Predictive Analytics**
-   
-   We develop predictive analytics models that can forecast future trends and outcomes, enabling applications such as demand forecasting, risk assessment, and resource planning.
-
-2. **Prescriptive Analytics**
-    
-    Our prescriptive analytics models can recommend actions to optimize outcomes, enabling applications such as supply chain management, pricing strategy, and marketing campaign optimization. 
-
-3. **Descriptive Analytics**
-            
-    We build descriptive analytics models that can summarize historical data and identify patterns, enabling applications such as performance analysis, trend detection, and anomaly detection. 
-
-4. **Decision Trees**
-
-    Our decision tree models can visualize decision-making processes and outcomes, enabling applications such as risk assessment, investment analysis, and strategic planning.
-
-5. **Recommendation Systems**
-
-    We develop recommendation systems that can suggest products and services to users, enabling applications such as e-commerce, content personalization, and social networking.
-    
-6. **Optimization Algorithms**
-
-    Our optimization algorithms can find the best solutions to complex problems, enabling applications such as resource allocation, scheduling, and route planning.
-
-7. **Simulation Models**
-
-    We build simulation models that can predict outcomes based on different scenarios, enabling applications such as process optimization, disaster planning, and policy analysis.
-
-8. **Forecasting Models**   
-
-    Our forecasting models can predict future trends and events, enabling applications such as sales forecasting, weather prediction, and demand planning.
-
-## AI-Enhanced Business Intelligence
-
-AI-Enhanced Business Intelligence is the use of AI to improve the collection, analysis, and visualization of business data. At CIATA, we specialize in developing AI-Enhanced Business Intelligence solutions that can help your business gain insights, make informed decisions, and drive growth. Our expertise includes:
+## Need help with an AI application?
+If you are interested in developing an AI based solution to your business challenges, we can help. [Contact us](/en/contact/) to discuss your project requirements and explore how we can assist you in implementing AI solutions that drive business growth and innovation.
