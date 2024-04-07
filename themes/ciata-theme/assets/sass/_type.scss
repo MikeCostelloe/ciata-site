@@ -11,7 +11,7 @@ h2,
 h3,
 h4 {
     font-family: 'Tahoma';
-    margin-bottom: 3.6rem;
+    margin-bottom: 2.6rem;
 }
 
 h1 {
@@ -20,8 +20,10 @@ h1 {
 }
 
 h2 {
-    font-size: 2.4rem;
+    font-size: 3rem;
+    //color: #78808f;
     color: $ciata__grey;
+    margin-top: 4rem;
 }
 
 h3 {
@@ -142,7 +144,7 @@ ol {
 @media screen and (max-width: $ciata__breakpoint) {
     .pull-quote {
         position: relative;
-        float:none;
+        float: none;
         width: 100%;
         margin-right: 0;
         padding: 3rem;
