@@ -17,10 +17,8 @@ Computer Vision is a field of AI that enables machines to interpret and understa
 
     Our object tracking models can reliably follow objects in videos over time, enabling applications such as surveillance, counting, sports analysis, action recognition, and more. The positions obtained on the image or the video can be translated to so-called world coordinates, which can be used to understand the objects' movements in the real world.
 
-{{< attr class="image_no_borders" >}}
-![Information Bottleneck Attribution: Which input pixels were relevant for the model output "monkey"?](../../../img/monkeys.gif) 
-**Figure:** Our method "Information Bottleneck Attribution" (Schulz et al. 2020) can be used to understand which input pixels were relevant for the model output "monkey". The method is based on the Information Bottleneck principle and can be used to understand the model's decision-making process.
-{{< /attr >}}
+{{< figure class="fig-float-right" src="/img/monkeys.gif" title="Our method 'Information Bottleneck Attribution' (Schulz et al. 2020) can be used to understand which input pixels were relevant for the model output 'monkey'. The method is based on the Information Bottleneck principle and can be used to understand the model's decision-making process." alt="Information Bottleneck Attribution: Which input pixels were relevant for the model output 'monkey'?">}}
+
 
 3. **Explainable AI**
     

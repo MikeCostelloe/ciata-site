@@ -18,7 +18,7 @@ Unsere Beratungsdienste zur KI-Strategie sind darauf ausgelegt, Unternehmen das 
 
 3. **Interim-Management:** Anerkannt für unsere Expertise in KI, bieten wir ein Interim-Management an, um Ihre KI-Initiativen zu leiten. Unsere erfahrenen Fachleute können einspringen, um sicherzustellen, dass Ihre KI-Projekte auf Kurs bleiben, mit Ihren strategischen Zielen übereinstimmen und effizient ausgeführt werden.
 
-![Workshops](../../../img/workshops.jpg)
+{{< figure class="fig-float-right" src="/img/workshops.jpg" alt="Workshops">}}
 
 4. **Investorenkommunikation:** Im sich schnell entwickelnden Feld der KI ist eine effektive Kommunikation mit Investoren entscheidend. Wir spezialisieren uns auf das Erstellen klarer, überzeugender Narrative, die den Wert Ihrer KI-Investitionen und -Strategien artikulieren. Unser Team hilft bei der Vorbereitung von Präsentationen, Berichten und Kommunikationsstrategien, die bei Investoren Anklang finden und das Potenzial von KI zur Förderung von Wachstum und Innovation in Ihrem Geschäft hervorheben.
 
@@ -45,7 +45,7 @@ Unsere Workshops sind darauf ausgerichtet, Organisationen mit dem Wissen und den
     - **Fortgeschrittene KI-Techniken:** Abdeckung von Spitzentechnologien und -methodologien in der KI, diese Sitzungen sind für Entwickler konzipiert, die ihre technischen Fähigkeiten verbessern möchten.
     - **Best Practices in der KI-Entwicklung:** Fokus auf Coding-Standards, Versionskontrolle, KI-Modellbereitstellung und mehr, um sicherzustellen, dass Ihr Team in den neuesten Branchenbest Practices bewandert ist.
 
-![Workshops](../../../img/workshops2.jpg)
+{{< figure class="fig-float-right" src="/img/workshops2.jpg" alt="Workshops">}}
 
 5. **Benutzerdefinierte Workshops für nicht-technisches Personal:** In dem Verständnis, dass KI alle Bereiche einer Organisation betrifft, bieten wir Workshops für nicht-technisches Personal an, um ihnen die Grundlagen von KI und ihre geschäftlichen Auswirkungen zu vermitteln:
 

@@ -8,7 +8,7 @@ bigtext: "Research-Driven AI Solutions"
 
 CIATA wurde 2024 aus dem Dahlem Center für Maschinelles Lernen und Robotik an der Freien Universität Berlin ausgegründet. Die Gründer von CIATA haben eine lange Geschichte der gemeinsamen Zusammenarbeit an innovativen Forschungsprojekten über und mit KI - von der Entwicklung neuer Methoden bis hin zur Anwendung in verschiedenen Bereichen wie Computer Vision, NLP und Robotik.
 
-![Our Team](../../../img/ciata_team.jpg) 
+{{<figure class="fig-float-right" src="/img/ciata_team.jpg" alt="Our Team">}}
 
 CIATAs Mission ist es, Spitzenforschung in reale Anwendungen zu bringen. Wir glauben, dass KI das Potenzial hat, viele Branchen zu revolutionieren, und wir sind leidenschaftlich daran interessiert, Unternehmen beim Wachstum zu unterstützen, indem wir die neuesten Entwicklungen des maschinellen Lernens und der Datenwissenschaften nutzen.
 

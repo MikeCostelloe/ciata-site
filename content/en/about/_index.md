@@ -8,7 +8,7 @@ weight: 2
 
 CIATA was spun out of the [Dahlem Center for Machine Learning and Robotics](https://www.mi.fu-berlin.de/inf/groups/ag-ki/index.html) at Freie Universität Berlin in 2024. The founders of CIATA have a long history of working together on cutting-edge research projects in AI, from developing novel methods to applying them to a variety of fields such as computer vision, natural language processing, and robotics.
 
-![Our Team](../../../img/ciata_team.jpg) 
+{{<figure class="fig-float-right" src="/img/ciata_team.jpg" alt="Our Team">}}
 
 Our mission is to bring cutting-edge research to real-world applications. We believe that AI has the potential to revolutionize many industries and we are passionate about helping businesses grow by leveraging the latest advances in machine learning and data science.
 

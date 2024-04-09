@@ -68,6 +68,18 @@ languages:
         - name: Leistungen
           pageRef: /services
           weight: 20
+        - name: Der CIATA-Prozess
+          parent: "Leistungen"
+          pageRef: /services
+          weight: 10
+        - name: KI-Strategie-Beratung
+          parent: "Leistungen"
+          pageRef: /services/consulting-services/
+          weight: 20
+        - name: KI-Implementierung
+          parent: "Leistungen"
+          pageRef: /services/ai-applications/
+          weight: 30
         - name: Kontakt
           pageRef: /contact
           weight: 30

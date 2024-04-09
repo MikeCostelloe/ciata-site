@@ -19,7 +19,7 @@ Our AI strategy consulting services are designed to help businesses unlock the f
 
 3. **Interim Management**: Recognized for our expertise in AI, we offer interim management services to lead your AI initiatives. Our seasoned professionals can step in to provide leadership and direction, ensuring that your AI projects remain on track, align with your strategic objectives, and are executed efficiently.
 
-![Workshops](../../../img/workshops.jpg)
+{{< figure class="fig-float-right" src="/img/workshops.jpg" alt="Workshops">}}
 
 4. **Investor Communications**: In the rapidly evolving field of AI, effective communication with investors is crucial. We specialize in crafting clear, compelling narratives that articulate the value of your AI investments and strategies. Our team assists in preparing presentations, reports, and communication strategies that resonate with investors, highlighting the potential of AI to drive growth and innovation in your business.
 
@@ -50,7 +50,7 @@ Our workshops are designed to empower organizations with the knowledge and skill
     + **Advanced AI Techniques:** Covering cutting-edge AI technologies and methodologies, these sessions are designed for developers looking to enhance their technical skills.
     + **Best Practices in AI Development:** Focus on coding standards, version control, AI model deployment, and more, ensuring your team is well-versed in the latest industry best practices.
 
-![Workshops](../../../img/workshops2.jpg)
+{{< figure class="fig-float-right" src="/img/workshops2.jpg" alt="Workshops">}}
 
 4. **Custom Workshops for Non-Technical Staff:**
     Understanding that AI impacts all areas of an organization, we offer workshops for non-technical staff to help them understand the basics of AI and its business implications:
