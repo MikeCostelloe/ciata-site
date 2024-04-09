@@ -24,6 +24,18 @@ languages:
         - name: Services
           pageRef: /services
           weight: 20
+        - name: The CIATA Process
+          parent: "Services"
+          pageRef: /services
+          weight: 10
+        - name: Strategic Advisory Services
+          parent: "Services"
+          pageRef: /services/consulting-services/
+          weight: 20
+        - name: AI Implementation
+          parent: "Services"
+          pageRef: /services/ai-applications/
+          weight: 30
         - name: Contact
           pageRef: /contact
           weight: 30

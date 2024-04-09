@@ -198,7 +198,7 @@ h2,
 h3,
 h4 {
 	font-family: 'Tahoma';
-	margin-bottom: 3.6rem;
+	margin-bottom: 2.6rem;
 }
 
 h1 {
@@ -207,8 +207,9 @@ h1 {
 }
 
 h2 {
-	font-size: 2.4rem;
+	font-size: 3rem;
 	color: slategrey;
+	margin-top: 4rem;
 }
 
 h3 {
@@ -522,6 +523,28 @@ main {
 	filter: hue-rotate(150deg);
 }
 
+.pub_list {
+	font-size: 8pt;
+}
+
+.pub_list ol,
+.pub_list li,
+.pub_list p {
+	line-height: 1.5rem;
+	font-size: 10pt;
+	margin-bottom: 1rem;
+}
+
+.main-column .image_no_borders {
+	width: 90%;
+	font-family: 'Tahoma';
+}
+
+.main-column .image_no_borders img {
+	flex: 1;
+	border: none;
+}
+
 .services-title {
 	width: 100%;
 	height: 100%;
@@ -535,6 +558,14 @@ main {
 	color: white;
 	text-align: center;
 	padding: 1rem 0rem;
+}
+
+.services-title a {
+	color: #e39f0d;
+}
+
+.services-title a:hover {
+	color: white;
 }
 
 .services-links {
@@ -603,7 +634,7 @@ footer {
 	width: 100%;
 	padding: 4rem 4rem 8rem;
 	margin: 0 auto;
-	background-color: #e39f0d;
+	background-image: linear-gradient(180deg, #ffbb29 0%, #e69d00 100%);
 }
 
 main {
@@ -721,7 +752,7 @@ a {
 }
 
 a:hover {
-	color: #fcd7a6;
+	color: #fa820a;
 }
 
 h2 a,
@@ -742,12 +773,45 @@ h2 a:hover {
 
 .main-navigation ul {
 	display: none;
+	position: relative;
 	padding: 2rem 0;
 	margin: 0;
 	list-style: none;
 }
 
+.main-navigation ul ul {
+	box-shadow: none;
+	background-color: white;
+	float: none;
+	padding: 0;
+	position: relative;
+	top: 100%;
+	left: auto;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	display: block;
+	left: auto;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
 .main-navigation ul li {
+	position: relative;
 	padding: 0 2rem;
 	width: 100%;
 	text-align: center;
@@ -804,6 +868,37 @@ h2 a:hover {
 	}
 	.main-navigation ul {
 		display: flex;
+	}
+	.main-navigation ul ul {
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+		background-color: white;
+		float: left;
+		padding: 2rem 0;
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: -999em;
+		z-index: 99999;
+	}
+	.main-navigation ul ul ul {
+		left: -999em;
+		top: 0;
+	}
+	.main-navigation ul ul li {
+		text-align: left;
+		padding: 1rem;
+	}
+	.main-navigation ul ul li:hover > ul,
+	.main-navigation ul ul li.focus > ul {
+		display: block;
+		left: auto;
+	}
+	.main-navigation ul ul a {
+		width: 200px;
+	}
+	.main-navigation ul li:hover > ul,
+	.main-navigation ul li.focus > ul {
+		left: auto;
 	}
 	.main-navigation ul li {
 		padding-right: 1rem;

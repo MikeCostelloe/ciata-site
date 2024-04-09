@@ -32,15 +32,59 @@ h2 a:hover {
 
 	ul {
 		display: none;
+		position: relative;
 		padding: 2rem 0;
 		margin: 0;
 		list-style: none;
 		// border-bottom: 2px solid $color__green;
 
+		ul {
+			box-shadow: none;
+			background-color: white;
+			float: none;
+			padding: 0;
+			position: relative;
+			top: 100%;
+			left: auto;
+			z-index: 99999;
+
+			ul {
+				left: -999em;
+				top: 0;
+			} 
+
+			li {
+				&:hover > ul,
+				&.focus > ul {
+					display: block;
+					left: auto;
+				}
+			}
+
+			a {
+				width: 200px;
+			}
+
+			:hover > a,
+			.focus > a {
+			}
+
+			a:hover,
+			a.focus {
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+		}
+
 		li {
+			position: relative;
 			padding: 0 2rem;
 			width: 100%;
 			text-align: center;
+
 
 			a {
 				display: block;
@@ -99,6 +143,50 @@ h2 a:hover {
 
 		ul {
 			display: flex;
+
+			ul {
+				box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+				background-color: white;
+				float: left;
+				padding: 2rem 0;
+				display: block;
+				position: absolute;
+				top: 100%;
+				left: -999em;
+				z-index: 99999;
+	
+				ul {
+					left: -999em;
+					top: 0;
+				} 
+	
+				li {
+					text-align: left;
+					padding: 1rem;
+					&:hover > ul,
+					&.focus > ul {
+						display: block;
+						left: auto;
+					}
+				}
+	
+				a {
+					width: 200px;
+				}
+	
+				:hover > a,
+				.focus > a {
+				}
+	
+				a:hover,
+				a.focus {
+				}
+			}
+	
+			li:hover > ul,
+			li.focus > ul {
+				left: auto;
+			}
 
 			li {
 				padding-right: 1rem;
