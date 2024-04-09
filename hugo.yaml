@@ -41,10 +41,10 @@ languages:
           weight: 30
       services:
         - name: Strategic Advisory Services
-          pageRef: /services#consulting
+          pageRef: /services/consulting-services/
           weight: 10
         - name: AI Implementation
-          pageRef: /services#implementation
+          pageRef: /services/ai-applications/
           weight: 20
 
     weight: 1
