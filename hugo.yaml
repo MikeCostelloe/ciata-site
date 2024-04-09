@@ -85,9 +85,9 @@ languages:
           weight: 30
       services:
         - name: KI-Strategie-Beratung
-          pageRef: /services#consulting
+          pageRef: /services/consulting-services/
           weight: 10
         - name: KI-Implementierung
-          pageRef: /services#implementation
+          pageRef: /services/ai-applications/
           weight: 20
     weight: 2
