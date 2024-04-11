@@ -7,9 +7,9 @@
       <button class="menu-toggle" aria-controls="sub-menu" aria-expanded="false">Services</button>
         <ul id="secondary-menu" class="menu nav-menu" aria-expanded="false">
           {{ if eq $.Site.Language.LanguageName "Deutsch" }}
-            Direkt zu:
+            Wissen Sie schon, was Sie brauchen? Direkt zu:
           {{ else }}
-            Jump to:
+            Already know what you need? Jump to:
           {{ end }}
           {{ range .Site.Menus.services }}
             <li><a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}</a></li>
