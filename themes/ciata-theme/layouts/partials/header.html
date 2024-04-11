@@ -16,7 +16,7 @@
               <ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
                 {{ range .Site.Menus.main }}
                   <li class="menu-item {{ if .HasChildren }}menu-item-has-children{{ end }}">
-                    <a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}</a>
+                    <a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}{{ if .HasChildren }} &#x25BD;{{ end }}</a>
                     {{ if .HasChildren }}
                     <ul>
                       {{ range .Children }}
