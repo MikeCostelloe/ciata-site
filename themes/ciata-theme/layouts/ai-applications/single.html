@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main>
+    <div class="main-column">
+        <nav id="ai-navigation" class="main-navigation">
+            <button class="menu-toggle" aria-controls="sub-menu" aria-expanded="false">Services</button>
+              <ul id="secondary-menu" class="menu nav-menu" aria-expanded="false">
+                Implementation: 
+                {{ range .Site.Menus.implementation }}
+                  <li><a href="{{ .URL | relURL }}">{{ .Name }}{{ .Pre }}</a></li>
+                {{ end }}
+              </ul>
+      
+      </nav>
+    <h1>{{ .Title }}</h1>
+{{ .Content }}
+</div>
+</main>
+{{ end }}

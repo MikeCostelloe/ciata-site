@@ -46,6 +46,16 @@ languages:
         - name: AI Implementation
           pageRef: /services/ai-applications/
           weight: 20
+      implementation:
+        - name: Computer Vision
+          pageRef: /services/ai-applications/computer_vision/
+          weight: 10
+        - name: Conversational AIs
+          pageRef: /services/ai-applications/conversational_ais/
+          weight: 10
+        - name: Time Series Prediction
+          pageRef: /services/ai-applications/data_analysis/
+          weight: 10
 
     weight: 1
   de:

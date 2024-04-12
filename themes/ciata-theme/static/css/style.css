@@ -869,6 +869,7 @@ h2 a:hover {
 	}
 	.main-navigation ul {
 		display: flex;
+		align-items: baseline;
 	}
 	.main-navigation ul ul {
 		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
