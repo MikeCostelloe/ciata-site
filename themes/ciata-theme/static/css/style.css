@@ -397,6 +397,7 @@ header {
 .content {
 	position: relative;
 	display: block;
+	min-height: 700px;
 	background-image: linear-gradient(355deg, #e39f0d 0%, #efb44e 3%, #f6c479 6%, #fcd7a6 9%, #feead2 15%, #fcfcfc 60%, white 90%);
 }
 
